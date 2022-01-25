@@ -393,7 +393,8 @@
     {
       "name": "JSON Key - Level 0",
       "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "source.json meta.structure.dictionary.json constant.other.key.json",
       ],
       "settings": {
         "foreground": "#C792EA"
@@ -640,8 +641,7 @@
       "name": "Punctuation Tweaks",
       "scope": [
         "punctuation.terminator.expression",
-        "punctuation.definition.arguments",
-        "punctuation.definition.array",
+        "punctuation.definition",
         "punctuation.section.array",
         "meta.array",
         "punctuation.section.property-list.begin.bracket.curly.css",
