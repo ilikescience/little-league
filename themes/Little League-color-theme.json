@@ -648,7 +648,9 @@
         "punctuation.section.property-list.end.bracket.curly.css",
         "punctuation.section.media.begin.bracket.curly.css",
         "punctuation.section.media.end.bracket.curly.css",
-        "punctuation.separator.list.comma.css"
+        "punctuation.separator.list.comma.css",
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json",
       ],
       "settings": {
         "foreground": "#a5a1a3"
