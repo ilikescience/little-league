@@ -1,0 +1,25 @@
+{
+  "name": "little-league",
+  "displayName": "Little League",
+  "description": "A color theme for VSCode",
+  "version": "0.0.1",
+  "galleryBanner": {
+    "color": "#061526",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Little League",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Little League-color-theme.json"
+      }
+    ]
+  }
+}
