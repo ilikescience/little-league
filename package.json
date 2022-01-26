@@ -2,7 +2,7 @@
   "name": "little-league",
   "displayName": "Little League",
   "description": "A color theme for VSCode",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "matthewstrom",
   "galleryBanner": {
     "color": "#061526",
@@ -10,7 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ilikescience/little-league"},
+    "url": "https://github.com/ilikescience/little-league"
+  },
   "engines": {
     "vscode": "^1.63.0"
   },
