@@ -1,4 +1,5 @@
 "use strict";
+
 class Sale {
   constructor(price) {
     [this.decoratorsList, this.price] = [[], price];

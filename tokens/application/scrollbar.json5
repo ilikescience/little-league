@@ -1,0 +1,12 @@
+{
+  // A few settings for scroll bars
+  scrollbar: {
+    shadow: { value: "{color.background.primary.70.value}44" },
+  },
+
+  scrollbarSlider: {
+    activeBackground: { value: "{color.background.highlight.primary.active.value}" },
+    background: { value: "{color.background.highlight.primary.inactive.value}" },
+    hoverBackground: { value: "{color.background.highlight.primary.active.value}" },
+  },
+}

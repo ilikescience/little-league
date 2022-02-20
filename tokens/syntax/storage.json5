@@ -1,0 +1,11 @@
+{
+  "syntax": {
+    "storage": {
+      "*": { "value": "{color.font.code.secondary.aqua.value}" },
+      "modifier": {},
+      "type": {
+        "function": {}
+      }
+    },
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "syntax": {
+    "support": {
+      "class": {
+        "*": { value: "{color.font.code.primary.yellow.value}" },
+        "component": {
+          "*": { value: "{color.font.code.primary.yellow.value}" }
+        }
+      },
+      "constant": {
+        "color": { "value": "{color.font.code.primary.coral.value}" },
+        "font-name": { "value": "{color.font.code.primary.coral.value}" },
+        "property-value": { "value": "{color.font.code.primary.coral.value}" },
+        // Math as in Math.floor in JS
+        "math": {}
+      },
+      "function": {
+        "*": { "value": "{color.font.code.primary.blue.value}" },
+        "kernel": {},
+        // functions on the global Math object like .floor or .round
+        "math": {}
+      },
+      "type": {
+        "property-name": {
+          "*": { "value": "{color.font.code.primary.yellow.value}" },
+          "css": { value: "{color.font.primary.50.value}" }
+        },
+        "vendored": { "value": "{color.font.code.secondary.yellow.value}" }
+      }
+    },
+  }
+}

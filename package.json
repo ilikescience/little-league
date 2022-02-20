@@ -15,16 +15,36 @@
   "engines": {
     "vscode": "^1.63.0"
   },
+  "bugs": {
+		"url": "https://github.com/ilikescience/little-league/issues"
+	},
+  "scripts": {
+		"build": "node build.js",
+		"watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
+		"start": "npm run watch",
+		"prepublish": "npm run build",
+		"publish": "vsce publish"
+	},
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Little League",
+        "label": "Little League Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Little League-color-theme.json"
-      }
+        "path": "./themes/little-league-dark.color-theme.json"
+      },
+      {
+				"label": "Little League Light",
+				"uiTheme": "vs",
+				"path": "./themes/little-league-light.color-theme.json"
+			}
     ]
-  }
+  },
+  "dependencies": {},
+	"devDependencies": {
+		"chokidar-cli": "^2.0.0",
+		"style-dictionary": "^2.8.2"
+	}
 }

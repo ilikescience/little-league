@@ -1,0 +1,17 @@
+// Code comments, you can target single, block, and documentation type comments
+{
+  "syntax": {
+    "comment": {
+      // Using * will work like apply to all nested scopes
+      "*": { "value": "{color.font.primary.70.value}" },
+      "line": {
+        "value": "{color.font.primary.70.value}",
+        "fontStyle": "italic"
+      },
+      "block": {
+        "documentation": { "value": "{color.font.primary.60.value}" }
+      },
+      "single": { "value": "{color.font.primary.70.value}" }
+    },
+  }
+}

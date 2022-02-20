@@ -1,6 +1,6 @@
-# Night Owl Theme
+# Little League theme     
 
-> Night Owl theme for VS Code.
+> Little League theme for VS Code.
 
 A test of a paragraph
 
