@@ -2,7 +2,7 @@
   "name": "little-league",
   "displayName": "Little League",
   "description": "A color theme for VSCode",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "publisher": "matthewstrom",
   "galleryBanner": {
     "color": "#061526",
@@ -16,15 +16,15 @@
     "vscode": "^1.63.0"
   },
   "bugs": {
-		"url": "https://github.com/ilikescience/little-league/issues"
-	},
+    "url": "https://github.com/ilikescience/little-league/issues"
+  },
   "scripts": {
-		"build": "node build.js",
-		"watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
-		"start": "npm run watch",
-		"prepublish": "npm run build",
-		"publish": "vsce publish"
-	},
+    "build": "node build.js",
+    "watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
+    "start": "npm run watch",
+    "prepublish": "npm run build",
+    "publish": "vsce publish"
+  },
   "categories": [
     "Themes"
   ],
@@ -36,15 +36,15 @@
         "path": "./themes/little-league-dark.color-theme.json"
       },
       {
-				"label": "Little League Light",
-				"uiTheme": "vs",
-				"path": "./themes/little-league-light.color-theme.json"
-			}
+        "label": "Little League Light",
+        "uiTheme": "vs",
+        "path": "./themes/little-league-light.color-theme.json"
+      }
     ]
   },
   "dependencies": {},
-	"devDependencies": {
-		"chokidar-cli": "^2.0.0",
-		"style-dictionary": "^2.8.2"
-	}
+  "devDependencies": {
+    "chokidar-cli": "^2.0.0",
+    "style-dictionary": "^2.8.2"
+  }
 }
