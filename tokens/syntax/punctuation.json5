@@ -16,6 +16,7 @@
         },
         "heading": { "value": "{color.font.code.primary.yellow.value}" },
         "list": { "value": "{color.font.primary.70.value}" },
+        "link": { "value": "{color.font.primary.70.value}" },
         "parameters": {
           "value": "{color.font.primary.70.value}"
         },

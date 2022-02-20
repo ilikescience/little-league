@@ -27,24 +27,24 @@
       
       "selection": {
         "active": {
-          "30": { "value": "{color.core.gray.05}" },
-          "40": { "value": "{color.core.gray.10}" },
-          "50": { "value": "{color.core.gray.20}" },
-          "60": { "value": "{color.core.gray.30}" },
-          "70": { "value": "{color.core.gray.40}" },
+          "30": { "value": "{color.core.gray.00}99" },
+          "40": { "value": "{color.core.gray.05}99" },
+          "50": { "value": "{color.core.gray.10}99" },
+          "60": { "value": "{color.core.gray.20}99" },
+          "70": { "value": "{color.core.gray.30}99" },
           },
         "inactive": {
-          "30": { "value": "{color.core.gray.05}44" },
-          "40": { "value": "{color.core.gray.10}44" },
-          "50": { "value": "{color.core.gray.20}44" },
-          "60": { "value": "{color.core.gray.30}44" },
-          "70": { "value": "{color.core.gray.40}44" },
+          "30": { "value": "{color.core.gray.00}44" },
+          "40": { "value": "{color.core.gray.05}44" },
+          "50": { "value": "{color.core.gray.10}44" },
+          "60": { "value": "{color.core.gray.20}44" },
+          "70": { "value": "{color.core.gray.30}44" },
           },
       },
       
       "highlight": {
         "primary": {
-          "active": { "value": "{color.core.gray.60}77" },
+          "active": { "value": "{color.core.gray.60}99" },
           "inactive": { "value": "{color.core.gray.60}44" },
         },
       }

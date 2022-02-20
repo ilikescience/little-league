@@ -8,6 +8,17 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Nothing!
 
+## [1.1.0] - 2022-02-20
+
+### Added
+
+- A theme icon and banner colors for the marketplace
+
+### Fixed
+
+- Selection colors
+
+
 ## [1.0.0] - 2022-02-20
 
 First proper release. Probably breaks a lot!

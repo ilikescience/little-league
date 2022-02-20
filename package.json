@@ -1,11 +1,11 @@
 {
   "name": "little-league",
   "displayName": "Little League",
-  "description": "A color theme for VSCode",
+  "description": "A quiet theme with harmonious colors",
   "version": "1.0.0",
   "publisher": "matthewstrom",
   "galleryBanner": {
-    "color": "#061526",
+    "color": "#3F3F45",
     "theme": "dark"
   },
   "repository": {
@@ -18,6 +18,12 @@
   "bugs": {
     "url": "https://github.com/ilikescience/little-league/issues"
   },
+  "keywords": [
+		"Little League",
+		"Dark Theme",
+		"Light Theme",
+		"Design Tokens"
+	],
   "scripts": {
     "build": "node build.js",
     "watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
@@ -28,6 +34,7 @@
   "categories": [
     "Themes"
   ],
+  "icon": "images/icon.png",
   "contributes": {
     "themes": [
       {

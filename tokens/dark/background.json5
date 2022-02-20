@@ -27,18 +27,18 @@
       
       "selection": {
         "active": {
-          "30": { "value": "{color.core.gray.60}" },
-          "40": { "value": "{color.core.gray.70}" },
-          "50": { "value": "{color.core.gray.80}" },
-          "60": { "value": "{color.core.gray.90}" },
-          "70": { "value": "{color.core.gray.95}" },
+          "30": { "value": "{color.core.gray.50}CC" },
+          "40": { "value": "{color.core.gray.60}CC" },
+          "50": { "value": "{color.core.gray.70}CC" },
+          "60": { "value": "{color.core.gray.90}CC" },
+          "70": { "value": "{color.core.gray.95}CC" },
           },
         "inactive": {
-          "30": { "value": "{color.core.gray.60}99" },
-          "40": { "value": "{color.core.gray.70}99" },
-          "50": { "value": "{color.core.gray.80}99" },
-          "60": { "value": "{color.core.gray.90}99" },
-          "70": { "value": "{color.core.gray.95}99" },
+          "30": { "value": "{color.core.gray.50}44" },
+          "40": { "value": "{color.core.gray.60}44" },
+          "50": { "value": "{color.core.gray.70}44" },
+          "60": { "value": "{color.core.gray.90}44" },
+          "70": { "value": "{color.core.gray.95}44" },
           },
       },
       
