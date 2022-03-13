@@ -72,6 +72,7 @@
     "editorInfo.foreground": "#39599c",
     "editorHint.foreground": "#395a9c",
     "editorBracketMatch.background": "#EDEDED44",
+    "editorBracketMatch.border": "{color.background.primary.60.value",
     "editorWhitespace.foreground": "#5a5a5d44",
     "editorIndentGuide.background": "#D6D6D6",
     "editorIndentGuide.activeBackground": "#EDEDED",
@@ -192,8 +193,10 @@
     "statusBar.foreground": "#757577",
     "statusBar.border": "#0000",
     "statusBar.debuggingBackground": "#bb64f6",
+    "statusBar.debuggingForeground": "{color.font.primary.50.value",
     "statusBar.debuggingBorder": "#0000",
     "statusBar.noFolderBackground": "#F5F5F5",
+    "statusBar.noFolderForeground": "{color.font.primary.50.value",
     "statusBar.noFolderBorder": "#0000",
     "statusBarItem.activeBackground": "#D6D6D699",
     "statusBarItem.hoverBackground": "#D6D6D644",
@@ -465,12 +468,14 @@
     {
       "scope": "markup.bold",
       "settings": {
+        "foreground": "{}",
         "fontStyle": "bold"
       }
     },
     {
       "scope": "markup.italic",
       "settings": {
+        "foreground": "{}",
         "fontStyle": "italic"
       }
     },

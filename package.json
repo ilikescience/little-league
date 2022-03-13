@@ -52,6 +52,6 @@
   "dependencies": {},
   "devDependencies": {
     "chokidar-cli": "^2.0.0",
-    "style-dictionary": "^2.8.2"
+    "style-dictionary": "^3.0.0"
   }
 }
