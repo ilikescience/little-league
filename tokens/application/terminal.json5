@@ -10,7 +10,7 @@
     "ansiRed": { "value": "{color.font.code.primary.coral.value}" },
     "ansiYellow": { "value": "{color.font.code.primary.yellow.value}" },
     "ansiBrightWhite": { "value": "{color.font.code.secondary.foreground.value}" },
-    "ansiBrightBlack": { "value": "{color.font.code.secondary.background.value}" },
+    "ansiBrightBlack": { "value": "{color.font.primary.70}" },
     "ansiBrightBlue": { "value": "{color.font.code.secondary.blue.value}" },
     "ansiBrightCyan": { "value": "{color.font.code.secondary.aqua.value}" },
     "ansiBrightGreen": { "value": "{color.font.code.secondary.green.value}" },
