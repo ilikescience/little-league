@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Nothing!
 
+## [1.2.0] - 2022-06-03
+
+### Fixed
+
+- Updated terminal colors to include better bright black
+
 ## [1.1.0] - 2022-02-20
 
 ### Added
