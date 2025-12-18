@@ -1,5 +1,5 @@
 # Little League VSCode Theme
-
+[!Version](https://vsmarketplacebadge.apphb.com/version/matthewstrom.little-league.png) [!Downloads](https://vsmarketplacebadge.apphb.com/downloads/matthewstrom.little-league.png) [!Rating](https://vsmarketplacebadge.apphb.com/rating/matthewstrom.little-league.png)
 [View on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=matthewstrom.little-league) | [Preview in vscode.dev](https://vscode.dev/theme/matthewstrom.little-league)
 
  ⚾ A quiet theme with harmonious colors.
