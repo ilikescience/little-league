@@ -1,0 +1,53 @@
+{
+  "syntax": {
+    "$type": "color",
+    "meta": {
+      "brace": {
+        "round": {
+          "*": { "$value": "{color.font.primary.60}" }
+        },
+        "square": {
+          "*": { "$value": "{color.font.primary.60}" }
+        }
+      },
+      "class": {
+        "*": { "$value": "{color.font.code.primary.blue}" }
+      },
+      "jsx": {
+        "children": {
+          "*": { "$value": "{color.font.primary.60}" }
+        }
+      },
+      "object": {
+        "*": { "$value": "{color.font.code.primary.mint}" },
+        "member": {}
+      },
+      "property-name": {
+        "css": { "$value": "{color.font.primary.60}" }
+      },
+      "property-value": {
+        "css": { "$value": "{color.font.code.primary.foreground}" }
+      },
+      "property-list": {},
+      "selector": {
+        "*": { "$value": "{color.font.code.primary.teal}" }
+      },
+      "structure": {
+        "dictionary": {
+          "*": {}
+        }
+      },
+      "tag": {
+        "attributes": { "$value": "{color.font.code.primary.aqua}" }
+      },
+      "type": {
+        "parameters": {}
+      },
+      "var": {
+        "expr": {
+          "*": {}
+        }
+      }
+    }
+  }
+}

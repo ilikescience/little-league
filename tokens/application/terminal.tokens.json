@@ -1,0 +1,26 @@
+{
+  "$type": "color",
+  "terminal": {
+    "ansiWhite": { "$value": "{color.font.code.primary.foreground}" },
+    "ansiBlack": { "$value": "{color.font.code.primary.background}" },
+    "ansiBlue": { "$value": "{color.font.code.primary.blue}" },
+    "ansiCyan": { "$value": "{color.font.code.primary.aqua}" },
+    "ansiGreen": { "$value": "{color.font.code.primary.green}" },
+    "ansiMagenta": { "$value": "{color.font.code.primary.purple}" },
+    "ansiRed": { "$value": "{color.font.code.primary.coral}" },
+    "ansiYellow": { "$value": "{color.font.code.primary.yellow}" },
+    "ansiBrightWhite": { "$value": "{color.font.code.secondary.foreground}" },
+    "ansiBrightBlack": { "$value": "{color.font.primary.70}" },
+    "ansiBrightBlue": { "$value": "{color.font.code.secondary.blue}" },
+    "ansiBrightCyan": { "$value": "{color.font.code.secondary.aqua}" },
+    "ansiBrightGreen": { "$value": "{color.font.code.secondary.green}" },
+    "ansiBrightMagenta": { "$value": "{color.font.code.secondary.purple}" },
+    "ansiBrightRed": { "$value": "{color.font.code.secondary.red}" },
+    "ansiBrightYellow": { "$value": "{color.font.code.secondary.yellow}" },
+    "selectionBackground": { "$value": "{color.background.selection.active.20}" }
+  },
+  "terminalCursor": {
+    "background": { "$value": "{color.font.ghost}" },
+    "foreground": { "$value": "{color.font.ghost}" }
+  }
+}

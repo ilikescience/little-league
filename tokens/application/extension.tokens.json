@@ -1,0 +1,12 @@
+{
+  "$type": "color",
+  "extensionButton": {
+    "prominentForeground": { "$value": "{color.font.primary.50}" },
+    "prominentBackground": { "$value": "{color.background.interactive.base}" },
+    "prominentHoverBackground": { "$value": "{color.background.interactive.hover}" }
+  },
+  "extensionBadge": {
+    "remoteBackground": {},
+    "remoteForeground": {}
+  }
+}

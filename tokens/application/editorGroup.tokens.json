@@ -1,0 +1,13 @@
+{
+  "$type": "color",
+  "editorGroup": {
+    "emptyBackground": { "$value": "{color.background.surface.30}" },
+    "border": { "$value": "{color.border.primary.40}" },
+    "dropBackground": { "$value": "{color.background.drop}" }
+  },
+  "editorGroupHeader": {
+    "noTabsBackground": { "$value": "{color.background.surface.20}" },
+    "tabsBackground": { "$value": "{color.background.surface.30}" },
+    "tabsBorder": { "$value": "{color.border.primary.50}" }
+  }
+}

@@ -2,7 +2,7 @@
   "name": "little-league",
   "displayName": "Little League",
   "description": "A quiet theme with harmonious colors",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "matthewstrom",
   "galleryBanner": {
     "color": "#3F3F45",
@@ -25,10 +25,13 @@
     "Design Tokens"
   ],
   "scripts": {
-    "build": "node build.js",
-    "watch": "npm run build && chokidar \"tokens/**/*.json5\" -c \"npm run build\"",
+    "build": "terrazzo build -c terrazzo.config.dark.mjs && terrazzo build -c terrazzo.config.darker.mjs && terrazzo build -c terrazzo.config.light.mjs",
+    "build:dark": "terrazzo build -c terrazzo.config.dark.mjs",
+    "build:darker": "terrazzo build -c terrazzo.config.darker.mjs",
+    "build:light": "terrazzo build -c terrazzo.config.light.mjs",
+    "watch": "terrazzo build -c terrazzo.config.dark.mjs --watch & terrazzo build -c terrazzo.config.darker.mjs --watch & terrazzo build -c terrazzo.config.light.mjs --watch",
     "start": "npm run watch",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "publish": "vsce publish"
   },
   "categories": [
@@ -43,15 +46,18 @@
         "path": "./themes/little-league-dark.color-theme.json"
       },
       {
+        "label": "Little League Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/little-league-darker.color-theme.json"
+      },
+      {
         "label": "Little League Light",
         "uiTheme": "vs",
         "path": "./themes/little-league-light.color-theme.json"
       }
     ]
   },
-  "dependencies": {},
   "devDependencies": {
-    "chokidar-cli": "^2.0.0",
-    "style-dictionary": "^3.0.0"
+    "@terrazzo/cli": "^0.10.5"
   }
 }

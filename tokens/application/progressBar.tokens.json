@@ -1,0 +1,6 @@
+{
+  "$type": "color",
+  "progressBar": {
+    "background": { "$value": "{color.background.info}" }
+  }
+}

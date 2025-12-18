@@ -1,0 +1,20 @@
+{
+  "$type": "color",
+  "textBlockQuote": {
+    "background": { "$value": "{color.background.surface.30}" },
+    "border": { "$value": "{color.border.active}" }
+  },
+  "textCodeBlock": {
+    "background": { "$value": "{color.background.surface.30}" }
+  },
+  "textLink": {
+    "activeForeground": { "$value": "{color.font.link.primary.active}" },
+    "foreground": { "$value": "{color.font.link.primary.inactive}" }
+  },
+  "textPreformat": {
+    "foreground": { "$value": "{color.font.info}" }
+  },
+  "textSeparator": {
+    "foreground": {}
+  }
+}

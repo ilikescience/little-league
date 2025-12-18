@@ -1,0 +1,11 @@
+{
+  "$type": "color",
+  "pickerGroup": {
+    "foreground": { "$value": "{color.font.primary.60}" },
+    "border": { "$value": "{color.border.primary.40}" }
+  },
+  "quickInput": {
+    "foreground": { "$value": "{color.font.primary.60}" },
+    "background": { "$value": "{color.background.surface.20}" }
+  }
+}

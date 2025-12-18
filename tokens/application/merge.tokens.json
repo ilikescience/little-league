@@ -1,0 +1,12 @@
+{
+  "$type": "color",
+  "merge": {
+    "currentHeaderBackground": {},
+    "currentContentBackground": {},
+    "incomingHeaderBackground": {},
+    "incomingContentBackground": {},
+    "border": {},
+    "commonContentBackground": {},
+    "commonHeaderBackground": {}
+  }
+}

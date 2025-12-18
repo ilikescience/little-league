@@ -1,0 +1,23 @@
+{
+  "$type": "color",
+  "list": {
+    "activeSelectionBackground": { "$value": "{color.background.selection.active.30}" },
+    "activeSelectionForeground": { "$value": "{color.font.primary.50}" },
+    "inactiveSelectionBackground": { "$value": "{color.background.selection.inactive.30}" },
+    "inactiveSelectionForeground": { "$value": "{color.font.primary.60}" },
+    "focusBackground": { "$value": "{color.background.selection.inactive.20}" },
+    "focusForeground": { "$value": "{color.font.primary.50}" },
+    "hoverBackground": { "$value": "{color.background.selection.inactive.30}" },
+    "hoverForeground": { "$value": "{color.font.primary.50}" },
+    "dropBackground": { "$value": "{color.background.drop}" },
+    "highlightForeground": { "$value": "{color.font.primary.50}" },
+    "invalidItemForeground": { "$value": "{color.font.danger}" },
+    "errorForeground": { "$value": "{color.font.danger}" },
+    "warningForeground": { "$value": "{color.font.warning}" }
+  },
+  "listFilterWidget": {
+    "background": { "$value": "{color.background.surface.10}" },
+    "outline": { "$value": "{color.border.primary.40}" },
+    "noMatchesOutline": { "$value": "{color.border.danger}" }
+  }
+}

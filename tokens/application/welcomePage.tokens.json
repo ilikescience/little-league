@@ -1,0 +1,9 @@
+{
+  "$type": "color",
+  "welcomePage": {
+    "background": { "$value": "{color.background.surface.20}" }
+  },
+  "walkThrough": {
+    "embeddedEditorBackground": { "$value": "{color.background.surface.10}" }
+  }
+}

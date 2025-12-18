@@ -1,0 +1,11 @@
+{
+  "$type": "color",
+  "settings": {
+    "headerForeground": { "$value": "{color.font.link.primary.active}" },
+    "textInputBackground": { "$value": "{color.background.surface.30}" },
+    "textInputForeground": { "$value": "{color.font.primary.50}" },
+    "dropdownBackground": { "$value": "{color.background.surface.30}" },
+    "dropdownForeground": { "$value": "{color.font.primary.50}" },
+    "modifiedItemIndicator": { "$value": "{color.border.info}" }
+  }
+}

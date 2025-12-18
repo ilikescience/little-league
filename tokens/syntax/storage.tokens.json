@@ -1,0 +1,12 @@
+{
+  "syntax": {
+    "$type": "color",
+    "storage": {
+      "*": { "$value": "{color.font.code.secondary.aqua}" },
+      "modifier": {},
+      "type": {
+        "function": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "syntax": {
+    "$type": "color",
+    "support": {
+      "class": {
+        "*": { "$value": "{color.font.code.primary.yellow}" },
+        "component": {
+          "*": { "$value": "{color.font.code.primary.yellow}" }
+        }
+      },
+      "constant": {
+        "color": { "$value": "{color.font.code.primary.coral}" },
+        "font-name": { "$value": "{color.font.code.primary.coral}" },
+        "property-value": { "$value": "{color.font.code.primary.coral}" },
+        "math": {}
+      },
+      "function": {
+        "*": { "$value": "{color.font.code.primary.blue}" },
+        "kernel": {},
+        "math": {}
+      },
+      "type": {
+        "property-name": {
+          "*": { "$value": "{color.font.code.primary.yellow}" },
+          "css": { "$value": "{color.font.primary.50}" }
+        },
+        "vendored": { "$value": "{color.font.code.secondary.yellow}" }
+      }
+    }
+  }
+}

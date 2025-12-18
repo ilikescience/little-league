@@ -1,0 +1,27 @@
+{
+  "syntax": {
+    "$type": "color",
+    "variable": {
+      "*": { "$value": "{color.font.code.secondary.yellow}" },
+      "language": {
+        "super": {
+          "$value": "{color.font.code.primary.teal}",
+          "$extensions": { "fontStyle": "italic" }
+        },
+        "this": { "$value": "{color.font.code.primary.mint}" }
+      },
+      "other": {
+        "*": { "$value": "{color.font.code.secondary.olive}" },
+        "constant": {
+          "*": { "$value": "{color.font.code.secondary.olive}" }
+        },
+        "readwrite": {
+          "alias": {
+            "*": { "$value": "{color.font.code.secondary.olive}" }
+          }
+        }
+      },
+      "parameter": {}
+    }
+  }
+}

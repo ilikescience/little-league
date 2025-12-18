@@ -1,0 +1,14 @@
+{
+  "$type": "color",
+  "editorBracketHighlight": {
+    "foreground1": { "$value": "{color.font.code.primary.blue}" },
+    "foreground2": { "$value": "{color.font.code.primary.green}" },
+    "foreground3": { "$value": "{color.font.code.primary.yellow}" },
+    "foreground4": { "$value": "{color.font.code.primary.coral}" },
+    "foreground5": { "$value": "{color.font.code.primary.mint}" },
+    "foreground6": { "$value": "{color.font.code.primary.teal}" },
+    "unexpectedBracket": {
+      "foreground": { "$value": "{color.font.code.primary.red}" }
+    }
+  }
+}

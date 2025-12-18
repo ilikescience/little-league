@@ -1,0 +1,51 @@
+{
+  "syntax": {
+    "$type": "color",
+    "punctuation": {
+      "accessor": {
+        "$value": "{color.font.primary.70}"
+      },
+      "definition": {
+        "array": { "$value": "{color.font.primary.70}" },
+        "block": { "$value": "{color.font.primary.70}" },
+        "dictionary": { "$value": "{color.font.primary.70}" },
+        "heading": { "$value": "{color.font.code.primary.yellow}" },
+        "list": { "$value": "{color.font.primary.70}" },
+        "link": { "$value": "{color.font.primary.70}" },
+        "parameters": { "$value": "{color.font.primary.70}" },
+        "quote": {},
+        "string": {
+          "*": { "$value": "{color.font.primary.70}" },
+          "begin": {},
+          "end": {}
+        },
+        "tag": {
+          "*": { "$value": "{color.font.primary.70}" }
+        },
+        "typeparameters": { "$value": "{color.font.primary.70}" },
+        "template-expression": {
+          "*": { "$value": "{color.font.code.primary.purple}" },
+          "begin": {},
+          "end": {}
+        },
+        "variable": {}
+      },
+      "section": {
+        "*": { "$value": "{color.font.primary.60}" },
+        "interpolation": {
+          "begin": {},
+          "end": {}
+        }
+      },
+      "separator": {
+        "*": { "$value": "{color.font.primary.70}" },
+        "array": {},
+        "continuation": {},
+        "dictionary": {}
+      },
+      "terminator": {
+        "*": { "$value": "{color.font.primary.70}" }
+      }
+    }
+  }
+}

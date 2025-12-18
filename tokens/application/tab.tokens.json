@@ -1,0 +1,15 @@
+{
+  "$type": "color",
+  "tab": {
+    "border": { "$value": "{color.background.surface.30}" },
+    "activeBackground": { "$value": "{color.background.surface.30}" },
+    "activeForeground": { "$value": "{color.font.primary.60}" },
+    "activeBorder": {},
+    "inactiveBackground": { "$value": "{color.background.surface.40}" },
+    "inactiveForeground": { "$value": "{color.font.primary.70}" },
+    "unfocusedActiveBorder": {},
+    "unfocusedHoverBorder": { "$value": "{color.border.primary.40}" },
+    "unfocusedActiveForeground": { "$value": "{color.font.primary.60}" },
+    "unfocusedInactiveForeground": { "$value": "{color.font.primary.70}" }
+  }
+}

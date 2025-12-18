@@ -1,0 +1,28 @@
+{
+  "$type": "color",
+  "peekView": {
+    "border": { "$value": "{color.border.primary.50}" }
+  },
+  "peekViewEditor": {
+    "background": { "$value": "{color.background.surface.20}" },
+    "matchHighlightBackground": { "$value": "{color.background.surface.0}" },
+    "matchHighlightBorder": {}
+  },
+  "peekViewResult": {
+    "background": { "$value": "{color.background.surface.10}" },
+    "fileForeground": { "$value": "{color.font.link.primary.active}" },
+    "lineForeground": { "$value": "{color.font.primary.50}" },
+    "matchHighlightBackground": { "$value": "{editor.findMatchHighlightBackground}" },
+    "selectionBackground": { "$value": "{editor.findMatchBackground}" },
+    "selectionForeground": {}
+  },
+  "peekViewTitle": {
+    "background": { "$value": "{color.background.surface.0}" }
+  },
+  "peekViewTitleDescription": {
+    "foreground": { "$value": "{color.font.primary.50}" }
+  },
+  "peekViewTitleLabel": {
+    "foreground": { "$value": "{color.font.primary.40}" }
+  }
+}

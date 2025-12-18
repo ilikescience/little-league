@@ -1,0 +1,10 @@
+{
+  "$type": "color",
+  "diffEditor": {
+    "insertedTextBackground": { "$value": "{color.background.success-alpha-20}" },
+    "insertedTextBorder": {},
+    "removedTextBackground": { "$value": "{color.background.danger-alpha-20}" },
+    "removedTextBorder": {},
+    "border": {}
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "welcomePage": {
-    "background": { "value": "{color.background.primary.50.value}" },
-  },
-  "walkThrough": {
-    "embeddedEditorBackground": { "value": "{color.background.primary.40.value}" }
-  }
-}

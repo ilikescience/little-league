@@ -1,0 +1,93 @@
+{
+  "name": "little-league",
+  "version": "2025.10",
+  "description": "Little League VS Code theme tokens with dark/light mode support",
+  "sets": {
+    "core": {
+      "description": "Primitive color values",
+      "sources": [
+        { "$ref": "tokens/core.tokens.json" }
+      ]
+    },
+    "application": {
+      "description": "VS Code UI component tokens",
+      "sources": [
+        { "$ref": "tokens/application/activityBar.tokens.json" },
+        { "$ref": "tokens/application/badge.tokens.json" },
+        { "$ref": "tokens/application/base.tokens.json" },
+        { "$ref": "tokens/application/bracketPairs.tokens.json" },
+        { "$ref": "tokens/application/breadcrumb.tokens.json" },
+        { "$ref": "tokens/application/button.tokens.json" },
+        { "$ref": "tokens/application/contrast.tokens.json" },
+        { "$ref": "tokens/application/debug.tokens.json" },
+        { "$ref": "tokens/application/diffEditor.tokens.json" },
+        { "$ref": "tokens/application/dropdown.tokens.json" },
+        { "$ref": "tokens/application/editor.tokens.json" },
+        { "$ref": "tokens/application/editorGroup.tokens.json" },
+        { "$ref": "tokens/application/editorWidget.tokens.json" },
+        { "$ref": "tokens/application/extension.tokens.json" },
+        { "$ref": "tokens/application/git.tokens.json" },
+        { "$ref": "tokens/application/input.tokens.json" },
+        { "$ref": "tokens/application/list.tokens.json" },
+        { "$ref": "tokens/application/menu.tokens.json" },
+        { "$ref": "tokens/application/merge.tokens.json" },
+        { "$ref": "tokens/application/minimap.tokens.json" },
+        { "$ref": "tokens/application/notication.tokens.json" },
+        { "$ref": "tokens/application/panel.tokens.json" },
+        { "$ref": "tokens/application/peekView.tokens.json" },
+        { "$ref": "tokens/application/progressBar.tokens.json" },
+        { "$ref": "tokens/application/quickPicker.tokens.json" },
+        { "$ref": "tokens/application/scrollbar.tokens.json" },
+        { "$ref": "tokens/application/settings.tokens.json" },
+        { "$ref": "tokens/application/sideBar.tokens.json" },
+        { "$ref": "tokens/application/statusBar.tokens.json" },
+        { "$ref": "tokens/application/tab.tokens.json" },
+        { "$ref": "tokens/application/terminal.tokens.json" },
+        { "$ref": "tokens/application/text.tokens.json" },
+        { "$ref": "tokens/application/titleBar.tokens.json" },
+        { "$ref": "tokens/application/welcomePage.tokens.json" }
+      ]
+    },
+    "syntax": {
+      "description": "Syntax highlighting tokens",
+      "sources": [
+        { "$ref": "tokens/syntax/comment.tokens.json" },
+        { "$ref": "tokens/syntax/constant.tokens.json" },
+        { "$ref": "tokens/syntax/entity.tokens.json" },
+        { "$ref": "tokens/syntax/invalid.tokens.json" },
+        { "$ref": "tokens/syntax/json.tokens.json" },
+        { "$ref": "tokens/syntax/keyword.tokens.json" },
+        { "$ref": "tokens/syntax/markup.tokens.json" },
+        { "$ref": "tokens/syntax/meta.tokens.json" },
+        { "$ref": "tokens/syntax/punctuation.tokens.json" },
+        { "$ref": "tokens/syntax/storage.tokens.json" },
+        { "$ref": "tokens/syntax/string.tokens.json" },
+        { "$ref": "tokens/syntax/support.tokens.json" },
+        { "$ref": "tokens/syntax/variable.tokens.json" }
+      ]
+    }
+  },
+  "modifiers": {
+    "theme": {
+      "contexts": {
+        "light": [
+          { "$ref": "tokens/light/background.tokens.json" },
+          { "$ref": "tokens/light/border.tokens.json" },
+          { "$ref": "tokens/light/font.tokens.json" }
+        ],
+        "dark": [
+          { "$ref": "tokens/dark/background.tokens.json" },
+          { "$ref": "tokens/dark/border.tokens.json" },
+          { "$ref": "tokens/dark/font.tokens.json" }
+        ]
+      },
+      "default": "light"
+    }
+  },
+  "resolutionOrder": [
+    { "$ref": "#/sets/core" },
+    { "$ref": "#/modifiers/theme" },
+    { "$ref": "#/sets/application" },
+    { "$ref": "#/sets/syntax" }
+  ]
+}

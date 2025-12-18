@@ -1,0 +1,11 @@
+{
+  "$type": "color",
+  "gitDecoration": {
+    "addedResourceForeground": { "$value": "{color.font.success}" },
+    "modifiedResourceForeground": { "$value": "{color.font.info}" },
+    "deletedResourceForeground": { "$value": "{color.font.danger}" },
+    "untrackedResourceForeground": { "$value": "{color.font.update}" },
+    "ignoredResourceForeground": { "$value": "{color.font.primary.60}" },
+    "conflictingResourceForeground": { "$value": "{color.font.active}" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$type": "color",
+  "panel": {
+    "border": { "$value": "{color.border.primary.40}" },
+    "background": { "$value": "{color.background.surface.30}" }
+  },
+  "panelTitle": {
+    "activeBorder": { "$value": "{color.border.active}" },
+    "activeForeground": { "$value": "{color.font.primary.60}" },
+    "inactiveForeground": { "$value": "{color.font.primary.70}" }
+  }
+}

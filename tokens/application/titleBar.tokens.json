@@ -1,0 +1,10 @@
+{
+  "$type": "color",
+  "titleBar": {
+    "border": { "$value": "{color.background.surface.30}" },
+    "activeBackground": { "$value": "{color.background.surface.30}" },
+    "activeForeground": { "$value": "{color.font.primary.50}" },
+    "inactiveBackground": { "$value": "{color.background.surface.40}" },
+    "inactiveForeground": { "$value": "{color.font.primary.70}" }
+  }
+}

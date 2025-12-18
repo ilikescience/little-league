@@ -1,0 +1,29 @@
+{
+  "syntax": {
+    "$type": "color",
+    "constant": {
+      "character": {
+        "escape": {}
+      },
+      "language": {
+        "dart": { "$value": "{color.font.code.secondary.coral}" },
+        "boolean": {
+          "false": { "$value": "{color.font.code.secondary.olive}" },
+          "true": { "$value": "{color.font.code.secondary.coral}" }
+        },
+        "import-export-all": { "$value": "{color.font.code.secondary.blue}" },
+        "null": { "$value": "{color.font.primary.60}" },
+        "symbol": { "$value": "{color.font.code.secondary.coral}" }
+      },
+      "other": {
+        "placeholder": {}
+      },
+      "numeric": {
+        "*": { "$value": "{color.font.code.secondary.coral}" },
+        "integer": {},
+        "complex": {},
+        "float": {}
+      }
+    }
+  }
+}

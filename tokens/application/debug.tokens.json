@@ -1,0 +1,10 @@
+{
+  "$type": "color",
+  "debugExceptionWidget": {
+    "background": {},
+    "border": {}
+  },
+  "debugToolBar": {
+    "background": { "$value": "{color.background.surface.10}" }
+  }
+}

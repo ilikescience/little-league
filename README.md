@@ -1,9 +1,6 @@
 # Little League VSCode Theme
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/matthewstrom.little-league.svg?style=flat-square&colorA=6494f6&colorB=4771e2)](https://marketplace.visualstudio.com/items?itemName=matthewstrom.little-league)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-star/matthewstrom.little-league.svg?style=flat-square&colorA=7eb87e&colorB=57a357)](https://marketplace.visualstudio.com/items?itemName=matthewstrom.little-league)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/matthewstrom.little-league.svg?style=flat-square&colorA=f78c6c&colorB=ca7967)](https://marketplace.visualstudio.com/items?itemName=matthewstrom.little-league)
-[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue?style=flat-square&colorA=68ceac&colorB=4cae8d)](https://vscode.dev/theme/matthewstrom.little-league)
+[View on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=matthewstrom.little-league) | [Preview in vscode.dev](https://vscode.dev/theme/matthewstrom.little-league)
 
  ⚾ A quiet theme with harmonious colors.
 

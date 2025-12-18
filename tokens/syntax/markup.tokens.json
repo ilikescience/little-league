@@ -1,0 +1,27 @@
+{
+  "syntax": {
+    "$type": "color",
+    "markup": {
+      "bold": {
+        "$extensions": { "fontStyle": "bold" }
+      },
+      "italic": {
+        "$extensions": { "fontStyle": "italic" }
+      },
+      "fenced_code": {
+        "$value": "{color.font.primary.50}"
+      },
+      "heading": {
+        "$value": "{color.font.primary.50}",
+        "$extensions": { "fontStyle": "bold" }
+      },
+      "quote": {
+        "$value": "{color.font.primary.60}",
+        "$extensions": { "fontStyle": "italic" }
+      },
+      "underline": {
+        "link": { "$value": "{color.font.code.primary.blue}" }
+      }
+    }
+  }
+}
