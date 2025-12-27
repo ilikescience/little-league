@@ -8,6 +8,22 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Nothing!
 
+## [1.3.1] - 2025-12-27
+
+### Fixed
+
+- Updated darkest gray in Darker theme (#0A0A0A → #101011) for better visibility
+
+## [1.3.0] - 2025-12-26
+
+### Added
+
+- Little League Darker variant - a deeper, darker version of the original theme
+
+### Changed
+
+- Migrated build pipeline from Style Dictionary to Terrazzo
+
 ## [1.2.0] - 2022-06-03
 
 ### Fixed
