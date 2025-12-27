@@ -13,17 +13,21 @@ function colorToHex(color) {
     return color;
   }
 
-  // If hex is provided, use it
-  let hex = color.hex || "";
+  let hex = "";
 
-  // If no hex, convert from components
-  if (!hex && color.components && color.colorSpace === "srgb") {
+  // Prefer converting from sRGB components
+  if (color.components && color.colorSpace === "srgb") {
     const [r, g, b] = color.components.map((c) =>
       Math.round(c * 255)
         .toString(16)
         .padStart(2, "0")
     );
     hex = `#${r}${g}${b}`;
+  }
+
+  // Fall back to hex if no components
+  if (!hex && color.hex) {
+    hex = color.hex;
   }
 
   // Add alpha if present and not 1
