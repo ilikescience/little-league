@@ -8,6 +8,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Nothing!
 
+## [1.4.1] - 2026-03-31
+
+### Fixed
+
+- Added `.vscodeignore` to exclude build tooling, tokens, and dev files from the published extension
+
 ## [1.4.0] - 2026-03-31
 
 ### Added
