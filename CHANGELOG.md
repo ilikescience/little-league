@@ -8,6 +8,31 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Nothing!
 
+## [1.4.0] - 2026-03-31
+
+### Added
+
+- 72 new VS Code theme properties: command center, menus, checkboxes, sticky scroll, inlay hints, tree guides, toolbar, banners, secondary buttons, minimap slider, and more
+- Descriptions on all application tokens from VS Code theme color reference
+- Shared token list so new tokens only need to be added in one place
+
+### Changed
+
+- Token scales now use a 500-centered numeric system (like CSS font-weight) instead of arbitrary numbers
+- Selection tokens consolidated from 10 to 6 (removed unused levels)
+- Alpha surface tokens renamed by purpose (shadow, line-highlight, range-highlight, etc.)
+- 4 alpha tokens converted to opaque where the background is known
+- Deprecated `extensionButton.prominent*` properties replaced with current equivalents
+- Directory structure simplified: `dark-original/` and `dark/` renamed to `dark/` and `darker/`
+
+### Fixed
+
+- `notication.tokens.json` typo corrected to `notification.tokens.json`
+
+### Removed
+
+- Unused tokens, empty placeholder files, and 24 empty token entries
+
 ## [1.3.1] - 2025-12-27
 
 ### Fixed

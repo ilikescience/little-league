@@ -1,7 +1,27 @@
 {
   "$type": "color",
   "minimap": {
-    "findMatchHighlight": { "$value": "{editor.findMatchBackground}" },
-    "selectionHighlight": { "$value": "{color.background.selection.active.30}" }
+    "findMatchHighlight": {
+      "$value": "{editor.findMatchBackground}",
+      "$description": "Highlight color for matches from search within files"
+    },
+    "selectionHighlight": {
+      "$value": "{color.background.selection.active.600}",
+      "$description": "Highlight color for the editor selection"
+    }
+  },
+  "minimapSlider": {
+    "background": {
+      "$value": "{color.background.highlight.primary.inactive}",
+      "$description": "Minimap slider background color"
+    },
+    "hoverBackground": {
+      "$value": "{color.background.highlight.primary.active}",
+      "$description": "Minimap slider background color when hovering"
+    },
+    "activeBackground": {
+      "$value": "{color.background.highlight.primary.active}",
+      "$description": "Minimap slider background color when clicked on"
+    }
   }
 }

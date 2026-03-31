@@ -1,6 +1,9 @@
 {
   "$type": "color",
   "progressBar": {
-    "background": { "$value": "{color.background.info}" }
+    "background": {
+      "$value": "{color.background.info}",
+      "$description": "Background color of the progress bar shown for long running operations"
+    }
   }
 }

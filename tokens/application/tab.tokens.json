@@ -1,15 +1,49 @@
 {
   "$type": "color",
   "tab": {
-    "border": { "$value": "{color.background.surface.30}" },
-    "activeBackground": { "$value": "{color.background.surface.30}" },
-    "activeForeground": { "$value": "{color.font.primary.60}" },
-    "activeBorder": {},
-    "inactiveBackground": { "$value": "{color.background.surface.40}" },
-    "inactiveForeground": { "$value": "{color.font.primary.70}" },
-    "unfocusedActiveBorder": {},
-    "unfocusedHoverBorder": { "$value": "{color.border.primary.40}" },
-    "unfocusedActiveForeground": { "$value": "{color.font.primary.60}" },
-    "unfocusedInactiveForeground": { "$value": "{color.font.primary.70}" }
+    "border": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Border to separate Tabs from each other"
+    },
+    "activeBackground": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Active Tab background color in an active group"
+    },
+    "activeForeground": {
+      "$value": "{color.font.primary.400}",
+      "$description": "Active Tab foreground color in an active group"
+    },
+    "inactiveBackground": {
+      "$value": "{color.background.surface.600}",
+      "$description": "Inactive Tab background color"
+    },
+    "inactiveForeground": {
+      "$value": "{color.font.primary.300}",
+      "$description": "Inactive Tab foreground color in an active group"
+    },
+    "unfocusedHoverBorder": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Border to highlight tabs in an unfocused group when hovering"
+    },
+    "unfocusedActiveForeground": {
+      "$value": "{color.font.primary.400}",
+      "$description": "Active tab foreground color in an inactive editor group"
+    },
+    "unfocusedInactiveForeground": {
+      "$value": "{color.font.primary.300}",
+      "$description": "Inactive tab foreground color in an inactive editor group"
+    },
+    "activeBorderTop": {
+      "$value": "{color.font.active}",
+      "$description": "Top border for the active tab"
+    },
+    "hoverBackground": {
+      "$value": "{color.background.selection.inactive.300}",
+      "$description": "Tab background color when hovering"
+    },
+    "lastPinnedBorder": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Border on the right of the last pinned editor to separate from unpinned editors"
+    }
   }
 }

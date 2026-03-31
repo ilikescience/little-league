@@ -1,14 +1,35 @@
 {
   "$type": "color",
   "editorBracketHighlight": {
-    "foreground1": { "$value": "{color.font.code.primary.blue}" },
-    "foreground2": { "$value": "{color.font.code.primary.green}" },
-    "foreground3": { "$value": "{color.font.code.primary.yellow}" },
-    "foreground4": { "$value": "{color.font.code.primary.coral}" },
-    "foreground5": { "$value": "{color.font.code.primary.mint}" },
-    "foreground6": { "$value": "{color.font.code.primary.teal}" },
+    "foreground1": {
+      "$value": "{color.font.code.primary.blue}",
+      "$description": "Foreground color of brackets (1)"
+    },
+    "foreground2": {
+      "$value": "{color.font.code.primary.green}",
+      "$description": "Foreground color of brackets (2)"
+    },
+    "foreground3": {
+      "$value": "{color.font.code.primary.yellow}",
+      "$description": "Foreground color of brackets (3)"
+    },
+    "foreground4": {
+      "$value": "{color.font.code.primary.coral}",
+      "$description": "Foreground color of brackets (4)"
+    },
+    "foreground5": {
+      "$value": "{color.font.code.primary.mint}",
+      "$description": "Foreground color of brackets (5)"
+    },
+    "foreground6": {
+      "$value": "{color.font.code.primary.teal}",
+      "$description": "Foreground color of brackets (6)"
+    },
     "unexpectedBracket": {
-      "foreground": { "$value": "{color.font.code.primary.red}" }
+      "foreground": {
+        "$value": "{color.font.code.primary.red}",
+        "$description": "Foreground color of unexpected brackets"
+      }
     }
   }
 }

@@ -121,9 +121,8 @@ export default function vscodeTheme(options = {}) {
           }
           // Application tokens go to colors
           else {
-            const colorKey = convertIdToColorKey(id);
-            if (colorKey && value) {
-              theme.colors[colorKey] = value;
+            if (id && value) {
+              theme.colors[id] = value;
             }
           }
         }
@@ -145,17 +144,6 @@ export default function vscodeTheme(options = {}) {
       }
     },
   };
-}
-
-/**
- * Convert token ID to VS Code color key
- * e.g., "activityBar.background" -> "activityBar.background"
- * @param {string} id
- * @returns {string}
- */
-function convertIdToColorKey(id) {
-  // Token IDs are already in the right format
-  return id;
 }
 
 /**

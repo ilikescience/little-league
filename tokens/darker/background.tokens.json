@@ -4,13 +4,13 @@
     "$type": "color",
     "background": {
       "surface": {
-        "200": { "$value": "{color.core.gray.650}" },
-        "300": { "$value": "{color.core.gray.800}" },
-        "range-highlight": { "$value": { "colorSpace": "srgb", "components": [0.164706, 0.164706, 0.180392], "alpha": 1, "hex": "#2A2A2E" } },
-        "400": { "$value": "{color.core.gray.850}" },
-        "line-highlight": { "$value": { "colorSpace": "srgb", "components": [0.152941, 0.152941, 0.172549], "alpha": 1, "hex": "#27272C" } },
-        "500": { "$value": "{color.core.gray.900}" },
-        "shadow": { "$value": "{color.core.gray.900-alpha-27}" },
+        "200": { "$value": "{color.core.gray.800}" },
+        "300": { "$value": "{color.core.gray.850}" },
+        "range-highlight": { "$value": { "colorSpace": "srgb", "components": [0.113725, 0.113725, 0.129412], "alpha": 1, "hex": "#1D1D21" } },
+        "400": { "$value": "{color.core.gray.900}" },
+        "line-highlight": { "$value": { "colorSpace": "srgb", "components": [0.101961, 0.101961, 0.113725], "alpha": 1, "hex": "#1A1A1D" } },
+        "500": { "$value": "{color.core.gray.950}" },
+        "shadow": { "$value": "{color.core.gray.950-alpha-33}" },
         "600": { "$value": "{color.core.gray.950}" },
         "scroll-shadow": { "$value": "{color.core.gray.950-alpha-27}" }
       },
@@ -18,10 +18,10 @@
       "badge": { "$value": "{color.core.blue.350}" },
       "debug": { "$value": "{color.core.purple.400}" },
       "danger": { "$value": "{color.core.red.350}" },
-      "danger-subtle": { "$value": { "colorSpace": "srgb", "components": [0.301961, 0.2, 0.211765], "alpha": 1, "hex": "#4D3336" } },
+      "danger-subtle": { "$value": { "colorSpace": "srgb", "components": [0.258824, 0.160784, 0.164706], "alpha": 1, "hex": "#42292A" } },
       "warning": { "$value": "{color.core.coral.300}" },
       "success": { "$value": "{color.core.green.200}" },
-      "success-subtle": { "$value": { "colorSpace": "srgb", "components": [0.235294, 0.27451, 0.239216], "alpha": 1, "hex": "#3C463D" } },
+      "success-subtle": { "$value": { "colorSpace": "srgb", "components": [0.196078, 0.231373, 0.192157], "alpha": 1, "hex": "#323B31" } },
       "info": { "$value": "{color.core.blue.350}" },
       "interactive": {
         "base": {

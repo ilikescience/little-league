@@ -1,13 +1,31 @@
 {
   "$type": "color",
   "editorGroup": {
-    "emptyBackground": { "$value": "{color.background.surface.30}" },
-    "border": { "$value": "{color.border.primary.40}" },
-    "dropBackground": { "$value": "{color.background.drop}" }
+    "emptyBackground": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Background color of an empty editor group"
+    },
+    "border": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Color to separate multiple editor groups from each other"
+    },
+    "dropBackground": {
+      "$value": "{color.background.drop}",
+      "$description": "Background color when dragging editors around"
+    }
   },
   "editorGroupHeader": {
-    "noTabsBackground": { "$value": "{color.background.surface.20}" },
-    "tabsBackground": { "$value": "{color.background.surface.30}" },
-    "tabsBorder": { "$value": "{color.border.primary.50}" }
+    "noTabsBackground": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Background color of the editor group title header when using single Tab"
+    },
+    "tabsBackground": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Background color of the Tabs container"
+    },
+    "tabsBorder": {
+      "$value": "{color.border.primary.400}",
+      "$description": "Border color below the editor tabs control when tabs are enabled"
+    }
   }
 }

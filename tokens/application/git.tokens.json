@@ -1,11 +1,45 @@
 {
   "$type": "color",
   "gitDecoration": {
-    "addedResourceForeground": { "$value": "{color.font.success}" },
-    "modifiedResourceForeground": { "$value": "{color.font.info}" },
-    "deletedResourceForeground": { "$value": "{color.font.danger}" },
-    "untrackedResourceForeground": { "$value": "{color.font.update}" },
-    "ignoredResourceForeground": { "$value": "{color.font.primary.60}" },
-    "conflictingResourceForeground": { "$value": "{color.font.active}" }
+    "addedResourceForeground": {
+      "$value": "{color.font.success}",
+      "$description": "Color for added Git resources used for file labels and the SCM viewlet"
+    },
+    "modifiedResourceForeground": {
+      "$value": "{color.font.info}",
+      "$description": "Color for modified Git resources used for file labels and the SCM viewlet"
+    },
+    "deletedResourceForeground": {
+      "$value": "{color.font.danger}",
+      "$description": "Color for deleted Git resources used for file labels and the SCM viewlet"
+    },
+    "untrackedResourceForeground": {
+      "$value": "{color.font.update}",
+      "$description": "Color for untracked Git resources used for file labels and the SCM viewlet"
+    },
+    "ignoredResourceForeground": {
+      "$value": "{color.font.primary.400}",
+      "$description": "Color for ignored Git resources used for file labels and the SCM viewlet"
+    },
+    "conflictingResourceForeground": {
+      "$value": "{color.font.active}",
+      "$description": "Color for conflicting Git resources used for file labels and the SCM viewlet"
+    },
+    "renamedResourceForeground": {
+      "$value": "{color.font.info}",
+      "$description": "Color for renamed or copied Git resources used for file labels"
+    },
+    "stageModifiedResourceForeground": {
+      "$value": "{color.font.warning}",
+      "$description": "Color for staged modifications git decorations used for file labels"
+    },
+    "stageDeletedResourceForeground": {
+      "$value": "{color.font.danger}",
+      "$description": "Color for staged deletions git decorations used for file labels"
+    },
+    "submoduleResourceForeground": {
+      "$value": "{color.font.info}",
+      "$description": "Color for submodule resources"
+    }
   }
 }

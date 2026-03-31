@@ -1,11 +1,29 @@
 {
   "$type": "color",
   "settings": {
-    "headerForeground": { "$value": "{color.font.link.primary.active}" },
-    "textInputBackground": { "$value": "{color.background.surface.30}" },
-    "textInputForeground": { "$value": "{color.font.primary.50}" },
-    "dropdownBackground": { "$value": "{color.background.surface.30}" },
-    "dropdownForeground": { "$value": "{color.font.primary.50}" },
-    "modifiedItemIndicator": { "$value": "{color.border.info}" }
+    "headerForeground": {
+      "$value": "{color.font.link.primary.active}",
+      "$description": "The foreground color for a section header or active title in Settings"
+    },
+    "textInputBackground": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Text input box background in Settings"
+    },
+    "textInputForeground": {
+      "$value": "{color.font.primary.500}",
+      "$description": "Text input box foreground in Settings"
+    },
+    "dropdownBackground": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Dropdown background in Settings"
+    },
+    "dropdownForeground": {
+      "$value": "{color.font.primary.500}",
+      "$description": "Dropdown foreground in Settings"
+    },
+    "modifiedItemIndicator": {
+      "$value": "{color.border.info}",
+      "$description": "The color of the modified setting indicator"
+    }
   }
 }

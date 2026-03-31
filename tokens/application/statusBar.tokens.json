@@ -1,23 +1,67 @@
 {
   "$type": "color",
   "statusBar": {
-    "background": { "$value": "{color.background.surface.20}" },
-    "foreground": { "$value": "{color.font.primary.60}" },
-    "border": { "$value": "{color.background.surface.20}" },
-    "debuggingBackground": { "$value": "{color.background.debug}" },
-    "debuggingForeground": { "$value": "{color.font.primary.50}" },
-    "debuggingBorder": { "$value": "{color.background.debug}" },
-    "noFolderBackground": { "$value": "{color.background.surface.20}" },
-    "noFolderForeground": { "$value": "{color.font.primary.50}" },
-    "noFolderBorder": { "$value": "{color.background.surface.20}" }
+    "background": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Standard Status Bar background color"
+    },
+    "foreground": {
+      "$value": "{color.font.primary.400}",
+      "$description": "Status Bar foreground color"
+    },
+    "border": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Status Bar border color separating the Status Bar and editor"
+    },
+    "debuggingBackground": {
+      "$value": "{color.background.debug}",
+      "$description": "Status Bar background color when a program is being debugged"
+    },
+    "debuggingForeground": {
+      "$value": "{color.font.primary.500}",
+      "$description": "Status Bar foreground color when a program is being debugged"
+    },
+    "debuggingBorder": {
+      "$value": "{color.background.debug}",
+      "$description": "Status Bar border color separating the Status Bar and editor when debugging"
+    },
+    "noFolderBackground": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Status Bar background color when no folder is opened"
+    },
+    "noFolderForeground": {
+      "$value": "{color.font.primary.500}",
+      "$description": "Status Bar foreground color when no folder is opened"
+    },
+    "noFolderBorder": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Status Bar border color separating the Status Bar and editor when no folder is opened"
+    }
   },
   "statusBarItem": {
-    "activeBackground": { "$value": "{color.background.selection.active.30}" },
-    "hoverBackground": { "$value": "{color.background.selection.inactive.30}" },
-    "prominentBackground": { "$value": "{color.background.badge}" },
-    "prominentForeground": { "$value": "{color.font.primary.50}" },
-    "prominentHoverBackground": {},
-    "remoteBackground": { "$value": "{color.background.interactive.base}" },
-    "remoteForeground": { "$value": "{color.font.primary.50}" }
+    "activeBackground": {
+      "$value": "{color.background.selection.active.600}",
+      "$description": "Status Bar item background color when clicking"
+    },
+    "hoverBackground": {
+      "$value": "{color.background.selection.inactive.300}",
+      "$description": "Status Bar item background color when hovering"
+    },
+    "prominentBackground": {
+      "$value": "{color.background.badge}",
+      "$description": "Status Bar prominent items background color"
+    },
+    "prominentForeground": {
+      "$value": "{color.font.primary.500}",
+      "$description": "Status Bar prominent items foreground color"
+    },
+    "remoteBackground": {
+      "$value": "{color.background.interactive.base}",
+      "$description": "Background color for the remote indicator on the status bar"
+    },
+    "remoteForeground": {
+      "$value": "{color.font.primary.500}",
+      "$description": "Foreground color for the remote indicator on the status bar"
+    }
   }
 }

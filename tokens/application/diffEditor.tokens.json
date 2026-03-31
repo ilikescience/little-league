@@ -1,10 +1,35 @@
 {
   "$type": "color",
   "diffEditor": {
-    "insertedTextBackground": { "$value": "{color.background.success-alpha-20}" },
-    "insertedTextBorder": {},
-    "removedTextBackground": { "$value": "{color.background.danger-alpha-20}" },
-    "removedTextBorder": {},
-    "border": {}
+    "insertedTextBackground": {
+      "$value": "{color.background.success-subtle}",
+      "$description": "Background color for text that got inserted"
+    },
+    "removedTextBackground": {
+      "$value": "{color.background.danger-subtle}",
+      "$description": "Background color for text that got removed"
+    },
+    "border": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Border color between the two text editors"
+    },
+    "insertedLineBackground": {
+      "$value": "{color.background.success-subtle}",
+      "$description": "Background color for lines that got inserted"
+    },
+    "removedLineBackground": {
+      "$value": "{color.background.danger-subtle}",
+      "$description": "Background color for lines that got removed"
+    }
+  },
+  "diffEditorOverview": {
+    "insertedForeground": {
+      "$value": "{color.font.success}",
+      "$description": "Diff overview ruler foreground for inserted content"
+    },
+    "removedForeground": {
+      "$value": "{color.font.danger}",
+      "$description": "Diff overview ruler foreground for removed content"
+    }
   }
 }

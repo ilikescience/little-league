@@ -1,26 +1,95 @@
 {
   "$type": "color",
   "terminal": {
-    "ansiWhite": { "$value": "{color.font.code.primary.foreground}" },
-    "ansiBlack": { "$value": "{color.font.code.primary.background}" },
-    "ansiBlue": { "$value": "{color.font.code.primary.blue}" },
-    "ansiCyan": { "$value": "{color.font.code.primary.aqua}" },
-    "ansiGreen": { "$value": "{color.font.code.primary.green}" },
-    "ansiMagenta": { "$value": "{color.font.code.primary.purple}" },
-    "ansiRed": { "$value": "{color.font.code.primary.coral}" },
-    "ansiYellow": { "$value": "{color.font.code.primary.yellow}" },
-    "ansiBrightWhite": { "$value": "{color.font.code.secondary.foreground}" },
-    "ansiBrightBlack": { "$value": "{color.font.primary.70}" },
-    "ansiBrightBlue": { "$value": "{color.font.code.secondary.blue}" },
-    "ansiBrightCyan": { "$value": "{color.font.code.secondary.aqua}" },
-    "ansiBrightGreen": { "$value": "{color.font.code.secondary.green}" },
-    "ansiBrightMagenta": { "$value": "{color.font.code.secondary.purple}" },
-    "ansiBrightRed": { "$value": "{color.font.code.secondary.red}" },
-    "ansiBrightYellow": { "$value": "{color.font.code.secondary.yellow}" },
-    "selectionBackground": { "$value": "{color.background.selection.active.20}" }
+    "ansiWhite": {
+      "$value": "{color.font.code.primary.foreground}",
+      "$description": "White ANSI color in the terminal"
+    },
+    "ansiBlack": {
+      "$value": "{color.font.code.primary.background}",
+      "$description": "Black ANSI color in the terminal"
+    },
+    "ansiBlue": {
+      "$value": "{color.font.code.primary.blue}",
+      "$description": "Blue ANSI color in the terminal"
+    },
+    "ansiCyan": {
+      "$value": "{color.font.code.primary.aqua}",
+      "$description": "Cyan ANSI color in the terminal"
+    },
+    "ansiGreen": {
+      "$value": "{color.font.code.primary.green}",
+      "$description": "Green ANSI color in the terminal"
+    },
+    "ansiMagenta": {
+      "$value": "{color.font.code.primary.purple}",
+      "$description": "Magenta ANSI color in the terminal"
+    },
+    "ansiRed": {
+      "$value": "{color.font.code.primary.coral}",
+      "$description": "Red ANSI color in the terminal"
+    },
+    "ansiYellow": {
+      "$value": "{color.font.code.primary.yellow}",
+      "$description": "Yellow ANSI color in the terminal"
+    },
+    "ansiBrightWhite": {
+      "$value": "{color.font.code.secondary.foreground}",
+      "$description": "BrightWhite ANSI color in the terminal"
+    },
+    "ansiBrightBlack": {
+      "$value": "{color.font.primary.300}",
+      "$description": "BrightBlack ANSI color in the terminal"
+    },
+    "ansiBrightBlue": {
+      "$value": "{color.font.code.secondary.blue}",
+      "$description": "BrightBlue ANSI color in the terminal"
+    },
+    "ansiBrightCyan": {
+      "$value": "{color.font.code.secondary.aqua}",
+      "$description": "BrightCyan ANSI color in the terminal"
+    },
+    "ansiBrightGreen": {
+      "$value": "{color.font.code.secondary.green}",
+      "$description": "BrightGreen ANSI color in the terminal"
+    },
+    "ansiBrightMagenta": {
+      "$value": "{color.font.code.secondary.purple}",
+      "$description": "BrightMagenta ANSI color in the terminal"
+    },
+    "ansiBrightRed": {
+      "$value": "{color.font.code.secondary.red}",
+      "$description": "BrightRed ANSI color in the terminal"
+    },
+    "ansiBrightYellow": {
+      "$value": "{color.font.code.secondary.yellow}",
+      "$description": "BrightYellow ANSI color in the terminal"
+    },
+    "selectionBackground": {
+      "$value": "{color.background.selection.active.500}",
+      "$description": "The selection background color of the terminal"
+    },
+    "background": {
+      "$value": "{color.background.surface.500}",
+      "$description": "The background of the Integrated Terminal's viewport"
+    },
+    "foreground": {
+      "$value": "{color.font.primary.500}",
+      "$description": "The default foreground color of the Integrated Terminal"
+    },
+    "border": {
+      "$value": "{color.border.primary.500}",
+      "$description": "The color of the border that separates split panes within the terminal"
+    }
   },
   "terminalCursor": {
-    "background": { "$value": "{color.font.ghost}" },
-    "foreground": { "$value": "{color.font.ghost}" }
+    "background": {
+      "$value": "{color.font.ghost}",
+      "$description": "The background color of the terminal cursor"
+    },
+    "foreground": {
+      "$value": "{color.font.ghost}",
+      "$description": "The foreground color of the terminal cursor"
+    }
   }
 }

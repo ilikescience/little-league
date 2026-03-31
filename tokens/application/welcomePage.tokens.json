@@ -1,9 +1,23 @@
 {
   "$type": "color",
   "welcomePage": {
-    "background": { "$value": "{color.background.surface.20}" }
+    "background": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Background color for the Welcome page"
+    },
+    "tileBackground": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Background color for the tiles on the Welcome page"
+    },
+    "tileHoverBackground": {
+      "$value": "{color.background.selection.inactive.400}",
+      "$description": "Hover background color for the tiles on the Welcome page"
+    }
   },
   "walkThrough": {
-    "embeddedEditorBackground": { "$value": "{color.background.surface.10}" }
+    "embeddedEditorBackground": {
+      "$value": "{color.background.surface.300}",
+      "$description": "Background color for the embedded editors on the Interactive Playground"
+    }
   }
 }

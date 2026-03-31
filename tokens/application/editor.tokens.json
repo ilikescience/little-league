@@ -1,94 +1,307 @@
 {
   "$type": "color",
   "editor": {
-    "background": { "$value": "{color.background.surface.30}" },
-    "foreground": { "$value": "{color.font.primary.50}" },
-    "selectionBackground": { "$value": "{color.background.selection.active.20}" },
-    "selectionHighlightBackground": { "$value": "{color.background.selection.inactive.30}" },
-    "inactiveSelectionBackground": { "$value": "{color.background.selection.inactive.30}" },
-    "wordHighlightBackground": { "$value": "{color.background.selection.inactive.10}" },
-    "wordHighlightStrongBackground": { "$value": "{color.background.selection.inactive.0}" },
-    "findMatchBackground": { "$value": "{color.background.highlight.primary.active}" },
-    "findMatchHighlightBackground": { "$value": "{color.background.selection.inactive.20}" },
-    "findRangeHighlightBackground": {},
-    "hoverHighlightBackground": { "$value": "{color.background.selection.inactive.20}" },
-    "lineHighlightBackground": { "$value": "{color.background.surface.20-alpha-50}" },
-    "lineHighlightBorder": {},
-    "rangeHighlightBackground": { "$value": "{color.background.surface.10-alpha-50}" },
-    "focusedStackFrameHighlightBackground": {},
-    "stackFrameHighlightBackground": {},
-    "snippetTabstopHighlightBackground": {},
-    "snippetTabstopHighlightBorder": {},
-    "snippetFinalTabstopHighlightBackground": {},
-    "snippetFinalTabstopHighlightBorder": {}
+    "background": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Editor background color"
+    },
+    "foreground": {
+      "$value": "{color.font.primary.500}",
+      "$description": "Editor default foreground color"
+    },
+    "selectionBackground": {
+      "$value": "{color.background.selection.active.500}",
+      "$description": "Color of the editor selection"
+    },
+    "selectionHighlightBackground": {
+      "$value": "{color.background.selection.inactive.300}",
+      "$description": "Color for regions with the same content as the selection"
+    },
+    "inactiveSelectionBackground": {
+      "$value": "{color.background.selection.inactive.300}",
+      "$description": "Color of the selection in an inactive editor"
+    },
+    "wordHighlightBackground": {
+      "$value": "{color.background.selection.inactive.500}",
+      "$description": "Background color of a symbol during read-access"
+    },
+    "wordHighlightStrongBackground": {
+      "$value": "{color.background.selection.inactive.600}",
+      "$description": "Background color of a symbol during write-access"
+    },
+    "findMatchBackground": {
+      "$value": "{color.background.highlight.primary.active}",
+      "$description": "Color of the current search match"
+    },
+    "findMatchHighlightBackground": {
+      "$value": "{color.background.selection.inactive.400}",
+      "$description": "Color of the other search matches"
+    },
+    "hoverHighlightBackground": {
+      "$value": "{color.background.selection.inactive.400}",
+      "$description": "Highlight below the word for which a hover is shown"
+    },
+    "lineHighlightBackground": {
+      "$value": "{color.background.surface.line-highlight}",
+      "$description": "Background color for the highlight of line at the cursor position"
+    },
+    "rangeHighlightBackground": {
+      "$value": "{color.background.surface.range-highlight}",
+      "$description": "Background color of highlighted ranges"
+    }
   },
   "editorLineNumber": {
-    "foreground": { "$value": "{color.font.primary.70}" },
-    "activeForeground": { "$value": "{color.font.primary.60}" }
+    "foreground": {
+      "$value": "{color.font.primary.300}",
+      "$description": "Color of editor line numbers"
+    },
+    "activeForeground": {
+      "$value": "{color.font.primary.400}",
+      "$description": "Color of the active editor line number"
+    }
   },
   "editorCursor": {
-    "foreground": { "$value": "{color.font.primary.60}" }
+    "foreground": {
+      "$value": "{color.font.primary.400}",
+      "$description": "Color of the editor cursor"
+    }
   },
   "editorLink": {
-    "activeForeground": { "$value": "{color.font.link.primary.inactive}" }
+    "activeForeground": {
+      "$value": "{color.font.link.primary.inactive}",
+      "$description": "Color of active links"
+    }
   },
   "editorGutter": {
-    "background": { "$value": "{color.background.surface.30}" },
-    "modifiedBackground": { "$value": "{color.border.info}" },
-    "addedBackground": { "$value": "{color.border.success}" },
-    "deletedBackground": { "$value": "{color.border.danger}" }
+    "background": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Background color of the editor gutter"
+    },
+    "modifiedBackground": {
+      "$value": "{color.border.info}",
+      "$description": "Editor gutter background color for lines that are modified"
+    },
+    "addedBackground": {
+      "$value": "{color.border.success}",
+      "$description": "Editor gutter background color for lines that are added"
+    },
+    "deletedBackground": {
+      "$value": "{color.border.danger}",
+      "$description": "Editor gutter background color for lines that are deleted"
+    },
+    "foldingControlForeground": {
+      "$value": "{color.font.primary.300}",
+      "$description": "Color of the folding control in the editor gutter"
+    }
   },
   "editorOverviewRuler": {
-    "border": { "$value": "{color.border.primary.60}" },
-    "findMatchForeground": { "$value": { "colorSpace": "srgb", "components": [0, 1, 0], "alpha": 0.8, "hex": "#00ff00" } },
-    "rangeHighlightForeground": { "$value": { "colorSpace": "srgb", "components": [0, 0, 1], "alpha": 0.8, "hex": "#0000ff" } },
-    "selectionHighlightForeground": { "$value": "{color.background.selection.inactive.20}" },
-    "currentContentForeground": { "$value": { "colorSpace": "srgb", "components": [1, 1, 1], "alpha": 0.8, "hex": "#ffffff" } },
-    "incomingContentForeground": { "$value": { "colorSpace": "srgb", "components": [0, 1, 0], "alpha": 0.8, "hex": "#00ff00" } },
-    "commonContentForeground": { "$value": { "colorSpace": "srgb", "components": [0, 0, 1], "alpha": 0.8, "hex": "#0000ff" } },
-    "modifiedForeground": { "$value": "{color.border.info}" },
-    "addedForeground": { "$value": "{color.border.success}" },
-    "deletedForeground": { "$value": "{color.border.danger}" },
-    "errorForeground": { "$value": "{color.border.danger}" },
-    "warningForeground": { "$value": "{color.border.warning}" },
-    "infoForeground": { "$value": "{color.border.info}" },
-    "bracketMatchForeground": { "$value": "{editorBracketMatch.background}" }
+    "border": {
+      "$value": "{color.border.primary.600}",
+      "$description": "Color of the overview ruler border"
+    },
+    "findMatchForeground": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          1,
+          0
+        ],
+        "alpha": 0.8,
+        "hex": "#00ff00"
+      },
+      "$description": "Overview ruler marker color for find matches"
+    },
+    "rangeHighlightForeground": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          1
+        ],
+        "alpha": 0.8,
+        "hex": "#0000ff"
+      },
+      "$description": "Overview ruler marker color for highlighted ranges"
+    },
+    "selectionHighlightForeground": {
+      "$value": "{color.background.selection.inactive.400}",
+      "$description": "Overview ruler marker color for selection highlights"
+    },
+    "currentContentForeground": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.8,
+        "hex": "#ffffff"
+      },
+      "$description": "Current overview ruler foreground for inline merge conflicts"
+    },
+    "incomingContentForeground": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          1,
+          0
+        ],
+        "alpha": 0.8,
+        "hex": "#00ff00"
+      },
+      "$description": "Incoming overview ruler foreground for inline merge conflicts"
+    },
+    "commonContentForeground": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          1
+        ],
+        "alpha": 0.8,
+        "hex": "#0000ff"
+      },
+      "$description": "Common ancestor overview ruler foreground for inline merge conflicts"
+    },
+    "modifiedForeground": {
+      "$value": "{color.border.info}",
+      "$description": "Overview ruler marker color for modified content"
+    },
+    "addedForeground": {
+      "$value": "{color.border.success}",
+      "$description": "Overview ruler marker color for added content"
+    },
+    "deletedForeground": {
+      "$value": "{color.border.danger}",
+      "$description": "Overview ruler marker color for deleted content"
+    },
+    "errorForeground": {
+      "$value": "{color.border.danger}",
+      "$description": "Overview ruler marker color for errors"
+    },
+    "warningForeground": {
+      "$value": "{color.border.warning}",
+      "$description": "Overview ruler marker color for warnings"
+    },
+    "infoForeground": {
+      "$value": "{color.border.info}",
+      "$description": "Overview ruler marker color for infos"
+    },
+    "bracketMatchForeground": {
+      "$value": "{editorBracketMatch.background}",
+      "$description": "Overview ruler marker color for matching brackets"
+    }
   },
   "editorError": {
-    "foreground": { "$value": "{color.font.danger}" },
-    "border": {}
+    "foreground": {
+      "$value": "{color.font.danger}",
+      "$description": "Foreground color of error squiggles in the editor"
+    }
   },
   "editorWarning": {
-    "foreground": { "$value": "{color.font.warning}" },
-    "border": {}
+    "foreground": {
+      "$value": "{color.font.warning}",
+      "$description": "Foreground color of warning squiggles in the editor"
+    }
   },
   "editorInfo": {
-    "foreground": { "$value": "{color.font.info}" },
-    "border": {}
+    "foreground": {
+      "$value": "{color.font.info}",
+      "$description": "Foreground color of info squiggles in the editor"
+    }
   },
   "editorHint": {
-    "foreground": { "$value": "{color.font.active}" },
-    "border": {}
+    "foreground": {
+      "$value": "{color.font.active}",
+      "$description": "Foreground color of hints in the editor"
+    }
   },
   "editorBracketMatch": {
-    "background": { "$value": "{color.background.selection.inactive.20}" },
-    "border": { "$value": "{color.background.surface.40}" }
+    "background": {
+      "$value": "{color.background.selection.inactive.400}",
+      "$description": "Background color behind matching brackets"
+    },
+    "border": {
+      "$value": "{color.background.surface.600}",
+      "$description": "Color for matching brackets boxes"
+    }
   },
   "editorWhitespace": {
-    "foreground": { "$value": "{color.font.ghost}" }
+    "foreground": {
+      "$value": "{color.font.ghost}",
+      "$description": "Color of whitespace characters in the editor"
+    }
   },
   "editorIndentGuide": {
-    "background1": { "$value": "{color.border.primary.40}" },
-    "activeBackground1": { "$value": "{color.border.primary.50}" }
+    "background1": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Color of the editor indentation guides (1)"
+    },
+    "activeBackground1": {
+      "$value": "{color.border.primary.400}",
+      "$description": "Color of the active editor indentation guides (1)"
+    }
   },
   "editorRuler": {
-    "foreground": { "$value": "{color.border.primary.40}" }
+    "foreground": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Color of the editor rulers"
+    }
   },
   "editorCodeLens": {
-    "foreground": { "$value": "{color.background.surface.20}" }
+    "foreground": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Foreground color of an editor CodeLens"
+    }
   },
   "editorUnnecessaryCode": {
-    "opacity": { "$value": { "colorSpace": "srgb", "components": [0, 0, 0], "alpha": 0.667, "hex": "#000000" } },
-    "border": { "$value": "{color.border.primary.50}" }
+    "opacity": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.667,
+        "hex": "#000000"
+      },
+      "$description": "Opacity of unnecessary (unused) source code in the editor"
+    },
+    "border": {
+      "$value": "{color.border.primary.400}",
+      "$description": "Border color of unnecessary (unused) source code in the editor"
+    }
+  },
+  "editorStickyScroll": {
+    "background": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Editor sticky scroll background color"
+    },
+    "border": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Border color of sticky scroll in the editor"
+    }
+  },
+  "editorStickyScrollHover": {
+    "background": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Editor sticky scroll on hover background color"
+    }
+  },
+  "editorInlayHint": {
+    "foreground": {
+      "$value": "{color.font.primary.300}",
+      "$description": "Foreground color of inline hints"
+    },
+    "background": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Background color of inline hints"
+    }
   }
 }

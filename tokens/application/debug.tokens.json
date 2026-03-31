@@ -1,10 +1,9 @@
 {
   "$type": "color",
-  "debugExceptionWidget": {
-    "background": {},
-    "border": {}
-  },
   "debugToolBar": {
-    "background": { "$value": "{color.background.surface.10}" }
+    "background": {
+      "$value": "{color.background.surface.300}",
+      "$description": "Debug toolbar background color"
+    }
   }
 }

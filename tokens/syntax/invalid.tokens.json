@@ -1,9 +1,0 @@
-{
-  "syntax": {
-    "$type": "color",
-    "invalid": {
-      "illegal": {},
-      "deprecated": {}
-    }
-  }
-}

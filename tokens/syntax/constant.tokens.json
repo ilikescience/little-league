@@ -12,7 +12,7 @@
           "true": { "$value": "{color.font.code.secondary.coral}" }
         },
         "import-export-all": { "$value": "{color.font.code.secondary.blue}" },
-        "null": { "$value": "{color.font.primary.60}" },
+        "null": { "$value": "{color.font.primary.400}" },
         "symbol": { "$value": "{color.font.code.secondary.coral}" }
       },
       "other": {

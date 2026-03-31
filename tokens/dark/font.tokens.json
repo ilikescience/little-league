@@ -4,11 +4,10 @@
     "$type": "color",
     "font": {
       "primary": {
-        "30": { "$value": "{color.core.gray.00}" },
-        "40": { "$value": "{color.core.gray.05}" },
-        "50": { "$value": "{color.core.gray.10}" },
-        "60": { "$value": "{color.core.gray.20}" },
-        "70": { "$value": "{color.core.gray.50}" }
+        "600": { "$value": "{color.core.gray.50}" },
+        "500": { "$value": "{color.core.gray.50}" },
+        "400": { "$value": "{color.core.gray.100}" },
+        "300": { "$value": "{color.core.gray.400}" }
       },
       "ghost": {
         "$value": {
@@ -18,16 +17,16 @@
           "hex": "#5C5C62"
         }
       },
-      "inverse": { "$value": "{color.background.surface.20}" },
-      "active": { "$value": "{color.core.blue.40}" },
-      "success": { "$value": "{color.core.green.40}" },
-      "danger": { "$value": "{color.core.red.40}" },
-      "warning": { "$value": "{color.core.coral.40}" },
-      "info": { "$value": "{color.core.aqua.40}" },
-      "update": { "$value": "{color.core.mint.40}" },
+      "inverse": { "$value": "{color.background.surface.400}" },
+      "active": { "$value": "{color.core.blue.250}" },
+      "success": { "$value": "{color.core.green.150}" },
+      "danger": { "$value": "{color.core.red.250}" },
+      "warning": { "$value": "{color.core.coral.250}" },
+      "info": { "$value": "{color.core.aqua.200}" },
+      "update": { "$value": "{color.core.mint.150}" },
       "link": {
         "primary": {
-          "active": { "$value": "{color.core.blue.50}" },
+          "active": { "$value": "{color.core.blue.350}" },
           "inactive": {
             "$value": {
               "colorSpace": "srgb",
@@ -40,32 +39,29 @@
       },
       "code": {
         "primary": {
-          "foreground": { "$value": "{color.core.gray.10}" },
-          "background": { "$value": "{color.core.gray.90}" },
-          "red": { "$value": "{color.core.red.60}" },
-          "purple": { "$value": "{color.core.purple.40}" },
-          "blue": { "$value": "{color.core.blue.40}" },
-          "aqua": { "$value": "{color.core.aqua.50}" },
-          "teal": { "$value": "{color.core.teal.60}" },
-          "mint": { "$value": "{color.core.mint.40}" },
-          "green": { "$value": "{color.core.green.30}" },
-          "olive": { "$value": "{color.core.olive.50}" },
-          "yellow": { "$value": "{color.core.yellow.40}" },
-          "coral": { "$value": "{color.core.coral.50}" }
+          "foreground": { "$value": "{color.core.gray.50}" },
+          "background": { "$value": "{color.core.gray.900}" },
+          "red": { "$value": "{color.core.red.400}" },
+          "purple": { "$value": "{color.core.purple.300}" },
+          "blue": { "$value": "{color.core.blue.250}" },
+          "aqua": { "$value": "{color.core.aqua.250}" },
+          "teal": { "$value": "{color.core.teal.250}" },
+          "mint": { "$value": "{color.core.mint.150}" },
+          "green": { "$value": "{color.core.green.100}" },
+          "olive": { "$value": "{color.core.olive.150}" },
+          "yellow": { "$value": "{color.core.yellow.150}" },
+          "coral": { "$value": "{color.core.coral.300}" }
         },
         "secondary": {
-          "foreground": { "$value": "{color.core.gray.00}" },
-          "background": { "$value": "{color.core.gray.95}" },
-          "red": { "$value": "{color.core.red.50}" },
-          "purple": { "$value": "{color.core.purple.50}" },
-          "blue": { "$value": "{color.core.blue.50}" },
-          "aqua": { "$value": "{color.core.aqua.40}" },
-          "teal": { "$value": "{color.core.teal.50}" },
-          "mint": { "$value": "{color.core.mint.50}" },
-          "green": { "$value": "{color.core.green.50}" },
-          "olive": { "$value": "{color.core.olive.40}" },
-          "yellow": { "$value": "{color.core.yellow.30}" },
-          "coral": { "$value": "{color.core.coral.40}" }
+          "foreground": { "$value": "{color.core.gray.0}" },
+          "red": { "$value": "{color.core.red.350}" },
+          "purple": { "$value": "{color.core.purple.400}" },
+          "blue": { "$value": "{color.core.blue.350}" },
+          "aqua": { "$value": "{color.core.aqua.200}" },
+          "green": { "$value": "{color.core.green.200}" },
+          "olive": { "$value": "{color.core.olive.100}" },
+          "yellow": { "$value": "{color.core.yellow.50}" },
+          "coral": { "$value": "{color.core.coral.250}" }
         }
       }
     }

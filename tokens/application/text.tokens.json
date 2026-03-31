@@ -1,20 +1,35 @@
 {
   "$type": "color",
   "textBlockQuote": {
-    "background": { "$value": "{color.background.surface.30}" },
-    "border": { "$value": "{color.border.active}" }
+    "background": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Background color for block quotes in text"
+    },
+    "border": {
+      "$value": "{color.border.active}",
+      "$description": "Border color for block quotes in text"
+    }
   },
   "textCodeBlock": {
-    "background": { "$value": "{color.background.surface.30}" }
+    "background": {
+      "$value": "{color.background.surface.500}",
+      "$description": "Background color for code blocks in text"
+    }
   },
   "textLink": {
-    "activeForeground": { "$value": "{color.font.link.primary.active}" },
-    "foreground": { "$value": "{color.font.link.primary.inactive}" }
+    "activeForeground": {
+      "$value": "{color.font.link.primary.active}",
+      "$description": "Foreground color for links in text when clicked on and on mouse hover"
+    },
+    "foreground": {
+      "$value": "{color.font.link.primary.inactive}",
+      "$description": "Foreground color for links in text"
+    }
   },
   "textPreformat": {
-    "foreground": { "$value": "{color.font.info}" }
-  },
-  "textSeparator": {
-    "foreground": {}
+    "foreground": {
+      "$value": "{color.font.info}",
+      "$description": "Foreground color for preformatted text segments"
+    }
   }
 }

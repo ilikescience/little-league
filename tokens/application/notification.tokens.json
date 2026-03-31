@@ -1,0 +1,63 @@
+{
+  "$type": "color",
+  "notificationCenter": {
+    "border": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Notification Center border color"
+    }
+  },
+  "notificationToast": {
+    "border": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Notification toast border color"
+    }
+  },
+  "notificationCenterHeader": {
+    "background": {
+      "$value": "{color.background.surface.400}",
+      "$description": "Notification Center header background color"
+    },
+    "foreground": {
+      "$value": "{color.font.primary.500}",
+      "$description": "Notification Center header foreground color"
+    }
+  },
+  "notifications": {
+    "background": {
+      "$value": "{color.background.surface.300}",
+      "$description": "Notification background color"
+    },
+    "foreground": {
+      "$value": "{color.font.primary.400}",
+      "$description": "Notification foreground color"
+    },
+    "border": {
+      "$value": "{color.border.primary.500}",
+      "$description": "Notification border color separating from other notifications in the Notification Center"
+    }
+  },
+  "notificationLink": {
+    "foreground": {
+      "$value": "{color.font.link.primary.active}",
+      "$description": "Notification links foreground color"
+    }
+  },
+  "notificationsErrorIcon": {
+    "foreground": {
+      "$value": "{color.font.danger}",
+      "$description": "The color used for the notification error icon"
+    }
+  },
+  "notificationsWarningIcon": {
+    "foreground": {
+      "$value": "{color.font.warning}",
+      "$description": "The color used for the notification warning icon"
+    }
+  },
+  "notificationsInfoIcon": {
+    "foreground": {
+      "$value": "{color.font.info}",
+      "$description": "The color used for the notification info icon"
+    }
+  }
+}

@@ -4,11 +4,9 @@
     "$type": "color",
     "border": {
       "primary": {
-        "30": { "$value": "{color.core.gray.70}" },
-        "40": { "$value": "{color.core.gray.80}" },
-        "50": { "$value": "{color.core.gray.90}" },
-        "60": { "$value": "{color.core.gray.95}" },
-        "70": { "$value": "{color.core.gray.100}" }
+        "500": { "$value": "{color.core.gray.800}" },
+        "400": { "$value": "{color.core.gray.900}" },
+        "600": { "$value": "{color.core.gray.950}" }
       },
       "focus": {
         "$value": {

@@ -22,7 +22,7 @@
       "type": {
         "property-name": {
           "*": { "$value": "{color.font.code.primary.yellow}" },
-          "css": { "$value": "{color.font.primary.50}" }
+          "css": { "$value": "{color.font.primary.500}" }
         },
         "vendored": { "$value": "{color.font.code.secondary.yellow}" }
       }

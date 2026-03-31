@@ -3,26 +3,26 @@
     "$type": "color",
     "punctuation": {
       "accessor": {
-        "$value": "{color.font.primary.70}"
+        "$value": "{color.font.primary.300}"
       },
       "definition": {
-        "array": { "$value": "{color.font.primary.70}" },
-        "block": { "$value": "{color.font.primary.70}" },
-        "dictionary": { "$value": "{color.font.primary.70}" },
+        "array": { "$value": "{color.font.primary.300}" },
+        "block": { "$value": "{color.font.primary.300}" },
+        "dictionary": { "$value": "{color.font.primary.300}" },
         "heading": { "$value": "{color.font.code.primary.yellow}" },
-        "list": { "$value": "{color.font.primary.70}" },
-        "link": { "$value": "{color.font.primary.70}" },
-        "parameters": { "$value": "{color.font.primary.70}" },
+        "list": { "$value": "{color.font.primary.300}" },
+        "link": { "$value": "{color.font.primary.300}" },
+        "parameters": { "$value": "{color.font.primary.300}" },
         "quote": {},
         "string": {
-          "*": { "$value": "{color.font.primary.70}" },
+          "*": { "$value": "{color.font.primary.300}" },
           "begin": {},
           "end": {}
         },
         "tag": {
-          "*": { "$value": "{color.font.primary.70}" }
+          "*": { "$value": "{color.font.primary.300}" }
         },
-        "typeparameters": { "$value": "{color.font.primary.70}" },
+        "typeparameters": { "$value": "{color.font.primary.300}" },
         "template-expression": {
           "*": { "$value": "{color.font.code.primary.purple}" },
           "begin": {},
@@ -31,20 +31,20 @@
         "variable": {}
       },
       "section": {
-        "*": { "$value": "{color.font.primary.60}" },
+        "*": { "$value": "{color.font.primary.400}" },
         "interpolation": {
           "begin": {},
           "end": {}
         }
       },
       "separator": {
-        "*": { "$value": "{color.font.primary.70}" },
+        "*": { "$value": "{color.font.primary.300}" },
         "array": {},
         "continuation": {},
         "dictionary": {}
       },
       "terminator": {
-        "*": { "$value": "{color.font.primary.70}" }
+        "*": { "$value": "{color.font.primary.300}" }
       }
     }
   }
