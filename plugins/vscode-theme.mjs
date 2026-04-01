@@ -1,45 +1,7 @@
 /**
- * Terrazzo plugin for generating VS Code theme files
- * Generates little-league-dark.color-theme.json and little-league-light.color-theme.json
+ * Terrazzo plugin for generating VS Code theme files.
+ * Build-only — reads transforms from core-transform plugin.
  */
-
-/**
- * Convert DTCG color value to hex string with alpha
- * @param {Object} color - DTCG color object
- * @returns {string} - Hex color string
- */
-function colorToHex(color) {
-  if (!color || typeof color !== "object") {
-    return color;
-  }
-
-  let hex = "";
-
-  // Prefer converting from sRGB components
-  if (color.components && color.colorSpace === "srgb") {
-    const [r, g, b] = color.components.map((c) =>
-      Math.round(c * 255)
-        .toString(16)
-        .padStart(2, "0")
-    );
-    hex = `#${r}${g}${b}`;
-  }
-
-  // Fall back to hex if no components
-  if (!hex && color.hex) {
-    hex = color.hex;
-  }
-
-  // Add alpha if present and not 1
-  if (color.alpha !== undefined && color.alpha !== 1) {
-    const alphaHex = Math.round(color.alpha * 255)
-      .toString(16)
-      .padStart(2, "0");
-    hex = hex + alphaHex;
-  }
-
-  return hex;
-}
 
 /**
  * @param {Object} options
@@ -53,31 +15,6 @@ export default function vscodeTheme(options = {}) {
 
   return {
     name: "vscode-theme",
-
-    async transform({ tokens, setTransform }) {
-      for (const [id, token] of Object.entries(tokens)) {
-        // Skip non-color tokens
-        if (token.$type !== "color") continue;
-
-        // Transform each mode
-        if (token.mode) {
-          for (const [modeName, modeToken] of Object.entries(token.mode)) {
-            const value = modeToken.$value;
-            const hexValue = colorToHex(value);
-
-            if (hexValue) {
-              setTransform(id, {
-                format: "vscode",
-                localID: id,
-                value: hexValue,
-                mode: modeName,
-                fontStyle: modeToken.originalValue?.$extensions?.fontStyle,
-              });
-            }
-          }
-        }
-      }
-    },
 
     async build({ tokens, getTransforms, outputFile }) {
       for (const mode of modes) {
@@ -94,7 +31,7 @@ export default function vscodeTheme(options = {}) {
 
         // Get all transforms for the default mode (we run separate builds per mode)
         const transforms = getTransforms({
-          format: "vscode",
+          format: "core",
           mode: ".",
         });
 
@@ -138,8 +75,8 @@ export default function vscodeTheme(options = {}) {
         theme.tokenColors.sort((a, b) => a.scope.localeCompare(b.scope));
 
         const filename = variant
-          ? `little-league-${mode}${variant.toLowerCase()}.color-theme.json`
-          : `little-league-${mode}.color-theme.json`;
+          ? `vscode/themes/little-league-${mode}${variant.toLowerCase()}.color-theme.json`
+          : `vscode/themes/little-league-${mode}.color-theme.json`;
         outputFile(filename, JSON.stringify(theme, null, 2));
       }
     },

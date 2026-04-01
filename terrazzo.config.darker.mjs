@@ -1,5 +1,9 @@
 import { defineConfig } from "@terrazzo/cli";
+import coreTransform from "./plugins/core-transform.mjs";
 import vscodeTheme from "./plugins/vscode-theme.mjs";
+import itermTheme from "./plugins/iterm-theme.mjs";
+import ghosttyTheme from "./plugins/ghostty-theme.mjs";
+import zedTheme from "./plugins/zed-theme.mjs";
 import { sharedTokens } from "./terrazzo.shared.mjs";
 
 export default defineConfig({
@@ -10,12 +14,12 @@ export default defineConfig({
     "./tokens/dark/font.tokens.json",
     ...sharedTokens,
   ],
-  outDir: "./themes/",
+  outDir: "./targets/",
   plugins: [
-    vscodeTheme({
-      name: "Little League",
-      modes: ["dark"],
-      variant: "er",
-    }),
+    coreTransform(),
+    vscodeTheme({ name: "Little League", modes: ["dark"], variant: "er" }),
+    itermTheme({ name: "Little League", modes: ["dark"], variant: "er" }),
+    ghosttyTheme({ name: "Little League", modes: ["dark"], variant: "er" }),
+    zedTheme({ name: "Little League", modes: ["dark"], variant: "er" }),
   ],
 });
