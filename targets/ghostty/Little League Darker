@@ -1,0 +1,26 @@
+# Little League Darker
+# Generated from design tokens by the Little League build pipeline.
+
+background = #171719
+foreground = #eeeeee
+cursor-color = #5c5c62
+cursor-text = #5c5c62
+selection-background = #57575b
+selection-foreground = #eeeeee
+
+palette = 0=#242428
+palette = 1=#ee896d
+palette = 2=#c5e991
+palette = 3=#ffc456
+palette = 4=#8cb1ff
+palette = 5=#ce86fd
+palette = 6=#68b8f7
+palette = 7=#eeeeee
+palette = 8=#8c8c8d
+palette = 9=#f0706f
+palette = 10=#9ecc8f
+palette = 11=#faedc7
+palette = 12=#6b94f8
+palette = 13=#bb63f5
+palette = 14=#72c9fa
+palette = 15=#ffffff

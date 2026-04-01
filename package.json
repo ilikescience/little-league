@@ -1,29 +1,8 @@
 {
-  "name": "little-league",
-  "displayName": "Little League",
-  "description": "A quiet theme with harmonious colors",
+  "name": "little-league-themes",
+  "private": true,
   "version": "1.4.1",
-  "publisher": "matthewstrom",
-  "galleryBanner": {
-    "color": "#3F3F45",
-    "theme": "dark"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ilikescience/little-league"
-  },
-  "engines": {
-    "vscode": "^1.63.0"
-  },
-  "bugs": {
-    "url": "https://github.com/ilikescience/little-league/issues"
-  },
-  "keywords": [
-    "Little League",
-    "Dark Theme",
-    "Light Theme",
-    "Design Tokens"
-  ],
+  "description": "Little League color themes — build system for VS Code, Zed, iTerm, and Ghostty",
   "scripts": {
     "build": "terrazzo build -c terrazzo.config.dark.mjs && terrazzo build -c terrazzo.config.darker.mjs && terrazzo build -c terrazzo.config.light.mjs",
     "build:dark": "terrazzo build -c terrazzo.config.dark.mjs",
@@ -31,32 +10,8 @@
     "build:light": "terrazzo build -c terrazzo.config.light.mjs",
     "watch": "terrazzo build -c terrazzo.config.dark.mjs --watch & terrazzo build -c terrazzo.config.darker.mjs --watch & terrazzo build -c terrazzo.config.light.mjs --watch",
     "start": "npm run watch",
-    "test": "npm run build && git diff --exit-code themes/",
-    "prepublishOnly": "npm run build",
-    "publish": "vsce publish"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "icon": "images/icon.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "Little League Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/little-league-dark.color-theme.json"
-      },
-      {
-        "label": "Little League Darker",
-        "uiTheme": "vs-dark",
-        "path": "./themes/little-league-darker.color-theme.json"
-      },
-      {
-        "label": "Little League Light",
-        "uiTheme": "vs",
-        "path": "./themes/little-league-light.color-theme.json"
-      }
-    ]
+    "test": "npm run build && git diff --exit-code targets/",
+    "publish:vscode": "npm run build && cd targets/vscode && vsce publish"
   },
   "devDependencies": {
     "@terrazzo/cli": "^0.10.5"

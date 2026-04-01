@@ -1,0 +1,26 @@
+# Little League Light
+# Generated from design tokens by the Little League build pipeline.
+
+background = #ffffff
+foreground = #57575b
+cursor-color = #cbcbcc
+cursor-text = #cbcbcc
+selection-background = #eeeeee
+selection-foreground = #57575b
+
+palette = 0=#eeeeee
+palette = 1=#c97565
+palette = 2=#4c824c
+palette = 3=#a88747
+palette = 4=#466ee1
+palette = 5=#a447e2
+palette = 6=#3177c7
+palette = 7=#3a3a3f
+palette = 8=#57575b
+palette = 9=#f0706f
+palette = 10=#afdb8a
+palette = 11=#cd9c3f
+palette = 12=#6b94f8
+palette = 13=#bb63f5
+palette = 14=#3990de
+palette = 15=#57575b

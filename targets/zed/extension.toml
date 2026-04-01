@@ -1,0 +1,7 @@
+id = "little-league"
+name = "Little League"
+version = "1.4.1"
+schema_version = 1
+description = "A quiet theme with harmonious colors"
+authors = ["Matt Strom <https://github.com/ilikescience>"]
+repository = "https://github.com/ilikescience/little-league"

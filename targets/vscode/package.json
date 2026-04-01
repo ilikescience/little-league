@@ -1,0 +1,50 @@
+{
+  "name": "little-league",
+  "displayName": "Little League",
+  "description": "A quiet theme with harmonious colors",
+  "version": "1.4.1",
+  "publisher": "matthewstrom",
+  "galleryBanner": {
+    "color": "#3F3F45",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilikescience/little-league"
+  },
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ilikescience/little-league/issues"
+  },
+  "keywords": [
+    "Little League",
+    "Dark Theme",
+    "Light Theme",
+    "Design Tokens"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Little League Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/little-league-dark.color-theme.json"
+      },
+      {
+        "label": "Little League Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/little-league-darker.color-theme.json"
+      },
+      {
+        "label": "Little League Light",
+        "uiTheme": "vs",
+        "path": "./themes/little-league-light.color-theme.json"
+      }
+    ]
+  }
+}
