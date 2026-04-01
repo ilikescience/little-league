@@ -1,2 +1,4 @@
 node_modules
 *.vsix
+.mcp.json
+.DS_Store
