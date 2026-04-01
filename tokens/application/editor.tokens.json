@@ -101,27 +101,25 @@
     },
     "findMatchForeground": {
       "$value": {
-        "colorSpace": "srgb",
+        "colorSpace": "oklch",
         "components": [
-          0,
-          1,
-          0
+          0.8664396115,
+          0.2948272403,
+          142.4953389
         ],
-        "alpha": 0.8,
-        "hex": "#00ff00"
+        "alpha": 0.8
       },
       "$description": "Overview ruler marker color for find matches"
     },
     "rangeHighlightForeground": {
       "$value": {
-        "colorSpace": "srgb",
+        "colorSpace": "oklch",
         "components": [
-          0,
-          0,
-          1
+          0.4520137184,
+          0.3132143717,
+          264.0520206
         ],
-        "alpha": 0.8,
-        "hex": "#0000ff"
+        "alpha": 0.8
       },
       "$description": "Overview ruler marker color for highlighted ranges"
     },
@@ -131,40 +129,37 @@
     },
     "currentContentForeground": {
       "$value": {
-        "colorSpace": "srgb",
+        "colorSpace": "oklch",
         "components": [
-          1,
-          1,
-          1
+          0.9999999935,
+          3.727399554e-8,
+          89.8755631
         ],
-        "alpha": 0.8,
-        "hex": "#ffffff"
+        "alpha": 0.8
       },
       "$description": "Current overview ruler foreground for inline merge conflicts"
     },
     "incomingContentForeground": {
       "$value": {
-        "colorSpace": "srgb",
+        "colorSpace": "oklch",
         "components": [
-          0,
-          1,
-          0
+          0.8664396115,
+          0.2948272403,
+          142.4953389
         ],
-        "alpha": 0.8,
-        "hex": "#00ff00"
+        "alpha": 0.8
       },
       "$description": "Incoming overview ruler foreground for inline merge conflicts"
     },
     "commonContentForeground": {
       "$value": {
-        "colorSpace": "srgb",
+        "colorSpace": "oklch",
         "components": [
-          0,
-          0,
-          1
+          0.4520137184,
+          0.3132143717,
+          264.0520206
         ],
-        "alpha": 0.8,
-        "hex": "#0000ff"
+        "alpha": 0.8
       },
       "$description": "Common ancestor overview ruler foreground for inline merge conflicts"
     },
@@ -262,14 +257,13 @@
   "editorUnnecessaryCode": {
     "opacity": {
       "$value": {
-        "colorSpace": "srgb",
+        "colorSpace": "oklch",
         "components": [
           0,
           0,
           0
         ],
-        "alpha": 0.667,
-        "hex": "#000000"
+        "alpha": 0.667
       },
       "$description": "Opacity of unnecessary (unused) source code in the editor"
     },
