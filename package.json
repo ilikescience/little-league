@@ -11,7 +11,8 @@
     "watch": "terrazzo build -c terrazzo.config.dark.mjs --watch & terrazzo build -c terrazzo.config.darker.mjs --watch & terrazzo build -c terrazzo.config.light.mjs --watch",
     "start": "npm run watch",
     "test": "npm run build && git diff --exit-code targets/",
-    "publish:vscode": "npm run build && cd targets/vscode && vsce publish"
+    "bump": "node scripts/bump-version.mjs",
+    "release:zed": "./scripts/release-zed.sh"
   },
   "devDependencies": {
     "@terrazzo/cli": "^0.10.5"

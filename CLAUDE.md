@@ -15,12 +15,31 @@ npm run build:darker       # Build only darker variant
 npm run build:light        # Build only light variant
 npm run watch              # Watch and rebuild on change
 npm run test               # Build and verify outputs match committed snapshots
-npm run publish:vscode     # Publish VS Code extension to Marketplace
 ```
 
 To test the VS Code theme, use the Extension Host launch config (F5) — it points to `targets/vscode/`.
 To test the Zed theme, use "zed: install dev extension" pointing to `targets/zed/`.
 To install Ghostty themes: `cp targets/ghostty/* ~/.config/ghostty/themes/`
+
+## Releasing
+
+Version is tracked in 3 places: root `package.json`, `targets/vscode/package.json`, `targets/zed/extension.toml`. The bump script updates all three.
+
+```bash
+node scripts/bump-version.mjs 1.5.0   # Updates all versions, commits, tags
+git push origin main --tags            # Triggers CI/CD release workflow
+```
+
+Pushing a `v*` tag triggers `.github/workflows/release.yml` which:
+1. Builds and tests all targets
+2. Publishes the VS Code extension to the Marketplace (requires `VSCE_PAT` secret)
+3. Creates a GitHub Release with iTerm, Ghostty, and Zed theme zips as assets
+
+For Zed, after the tag is pushed:
+```bash
+npm run release:zed   # Updates submodule ref in extensions fork, pushes branch
+```
+Then create a PR from the pushed branch to `zed-industries/extensions`.
 
 ## Architecture
 
