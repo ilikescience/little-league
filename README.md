@@ -2,6 +2,8 @@
 
 A quiet theme with harmonious colors. Three variants: Dark, Darker, and Light.
 
+![Little League screenshot](screenshot.png)
+
 Available for:
 - **[VS Code](https://marketplace.visualstudio.com/items?itemName=matthewstrom.little-league)** — full editor theme with syntax highlighting
 - **[Zed](https://zed.dev)** — full editor theme with syntax highlighting
