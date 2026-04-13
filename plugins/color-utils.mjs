@@ -158,3 +158,12 @@ export function hexToRgbFloats(hex) {
 
   return { r, g, b, a };
 }
+
+/**
+ * Strip alpha channel from a hex color string.
+ * @param {string} hex - Hex color (#RRGGBB or #RRGGBBAA)
+ * @returns {string} - Hex color without alpha (#RRGGBB)
+ */
+export function stripAlpha(hex) {
+  return hex.length === 9 ? hex.slice(0, 7) : hex;
+}

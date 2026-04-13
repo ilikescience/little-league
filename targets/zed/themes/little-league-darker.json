@@ -93,47 +93,47 @@
             "cursor": "#ddddddff"
           },
           {
-            "cursor": "#8cb1ffff"
-          },
-          {
-            "cursor": "#c5e991ff"
-          },
-          {
-            "cursor": "#ffc456ff"
-          },
-          {
-            "cursor": "#ce86fdff"
-          },
-          {
-            "cursor": "#68b8f7ff"
-          },
-          {
-            "cursor": "#ee896dff"
-          },
-          {
             "cursor": "#6b94f8ff"
+          },
+          {
+            "cursor": "#9ecc8fff"
+          },
+          {
+            "cursor": "#e1a737ff"
+          },
+          {
+            "cursor": "#bb63f5ff"
+          },
+          {
+            "cursor": "#449de9ff"
+          },
+          {
+            "cursor": "#c97565ff"
+          },
+          {
+            "cursor": "#517beaff"
           }
         ],
         "terminal.background": "#171719ff",
         "terminal.foreground": "#eeeeeeff",
-        "terminal.bright_foreground": "#ffffffff",
-        "terminal.dim_foreground": "#8c8c8dff",
-        "terminal.ansi.black": "#242428ff",
-        "terminal.ansi.red": "#ee896dff",
-        "terminal.ansi.green": "#c5e991ff",
-        "terminal.ansi.yellow": "#ffc456ff",
-        "terminal.ansi.blue": "#8cb1ffff",
-        "terminal.ansi.magenta": "#ce86fdff",
-        "terminal.ansi.cyan": "#68b8f7ff",
-        "terminal.ansi.white": "#eeeeeeff",
-        "terminal.ansi.bright_black": "#8c8c8dff",
-        "terminal.ansi.bright_red": "#f0706fff",
-        "terminal.ansi.bright_green": "#9ecc8fff",
-        "terminal.ansi.bright_yellow": "#faedc7ff",
-        "terminal.ansi.bright_blue": "#6b94f8ff",
-        "terminal.ansi.bright_magenta": "#bb63f5ff",
-        "terminal.ansi.bright_cyan": "#72c9faff",
-        "terminal.ansi.bright_white": "#ffffffff",
+        "terminal.bright_foreground": "#ddddddff",
+        "terminal.dim_foreground": "#616164ff",
+        "terminal.ansi.black": "#010101ff",
+        "terminal.ansi.red": "#c97565ff",
+        "terminal.ansi.green": "#9ecc8fff",
+        "terminal.ansi.yellow": "#e1a737ff",
+        "terminal.ansi.blue": "#6b94f8ff",
+        "terminal.ansi.magenta": "#bb63f5ff",
+        "terminal.ansi.cyan": "#449de9ff",
+        "terminal.ansi.white": "#cececeff",
+        "terminal.ansi.bright_black": "#616164ff",
+        "terminal.ansi.bright_red": "#e94343ff",
+        "terminal.ansi.bright_green": "#6db46fff",
+        "terminal.ansi.bright_yellow": "#ffc456ff",
+        "terminal.ansi.bright_blue": "#517beaff",
+        "terminal.ansi.bright_magenta": "#a447e2ff",
+        "terminal.ansi.bright_cyan": "#57aaf1ff",
+        "terminal.ansi.bright_white": "#ddddddff",
         "syntax": {
           "attribute": {
             "color": "#6b94f8ff"

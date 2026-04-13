@@ -1,0 +1,316 @@
+# Little League Light
+# Generated from design tokens by the Little League build pipeline.
+#
+# Usage: save to ~/.config/starship.toml or source via STARSHIP_CONFIG
+
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[ ](bg:#eeeeee)\
+[ ](bg:#dddddd)\
+[ ](bg:#bfbfc0)\
+[ ](bg:#a4a4a5)\
+$directory\
+$git_branch\
+$git_status\
+$buf$bun$c$cmake$cobol$crystal$daml$dart$deno$dotnet$elixir$elm$erlang$fennel$gleam$golang$gradle$haskell$haxe$java$julia$kotlin$lua$meson$mojo$nim$nodejs$ocaml$odin$package$perl$php$purescript$python$quarto$rlang$red$ruby$rust$scala$solidity$swift$terraform$typst$vlang$zig\
+$time\
+\n$character"""
+
+[directory]
+style = "fg:#ffffff bg:#8c8c8d"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = ""
+style = "bg:#bfbfc0"
+format = '[[ $symbol$branch ](fg:#4d4d52 bg:#bfbfc0)]($style)'
+
+[git_status]
+style = "bg:#bfbfc0"
+format = '[[($all_status$ahead_behind )](fg:#4d4d52 bg:#bfbfc0)]($style)'
+
+[character]
+format = "$symbol "
+success_symbol = "[❯](fg:#ffffff)"
+error_symbol = "[❯](red)"
+
+[buf]
+symbol = "buf "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[bun]
+symbol = "bun "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[c]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[cmake]
+symbol = "cmake "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[cobol]
+symbol = "cobol "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[crystal]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[daml]
+symbol = "daml "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[dart]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[deno]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[dotnet]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[elixir]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[elm]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[erlang]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[fennel]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[gleam]
+symbol = "gleam "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[golang]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[gradle]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[haskell]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[haxe]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[java]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[julia]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[kotlin]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[lua]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[meson]
+symbol = "meson "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[mojo]
+symbol = "mojo "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[nim]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[nodejs]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[ocaml]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[odin]
+symbol = "odin "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[package]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[perl]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[php]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[purescript]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[python]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[quarto]
+symbol = "quarto "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[rlang]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[red]
+symbol = "red "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[ruby]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[rust]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[scala]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[solidity]
+symbol = "sol "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[swift]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[terraform]
+symbol = "󱁢 "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[typst]
+symbol = "typst "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[vlang]
+symbol = "V "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[zig]
+symbol = " "
+style = "bg:#dddddd"
+format = '[[ $symbol$version ](fg:#616164 bg:#dddddd)]($style)'
+
+[aws]
+disabled = true
+
+[azure]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[openstack]
+disabled = true
+
+[pulumi]
+disabled = true
+
+[vagrant]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[conda]
+disabled = true
+
+[guix_shell]
+disabled = true
+
+[helm]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[opa]
+disabled = true
+
+[spack]
+disabled = true
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:#eeeeee"
+format = '[[ 󰥔 $time ](fg:#757578 bg:#eeeeee)]($style)'

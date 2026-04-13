@@ -3,10 +3,7 @@
  * Reads terminal color transforms registered by the VS Code theme plugin.
  */
 
-/** Strip alpha channel from hex colors — Ghostty only accepts #RRGGBB */
-function stripAlpha(hex) {
-  return hex.length === 9 ? hex.slice(0, 7) : hex;
-}
+import { stripAlpha } from "./color-utils.mjs";
 
 /** Ordered ANSI palette token IDs (indices 0–15) */
 const PALETTE_TOKENS = [

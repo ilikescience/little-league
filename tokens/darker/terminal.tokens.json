@@ -1,0 +1,53 @@
+{
+  "$type": "color",
+  "terminal": {
+    "ansiWhite": {
+      "$value": "{color.core.gray.150}"
+    },
+    "ansiBlack": {
+      "$value": "{color.core.gray.1000}"
+    },
+    "ansiBlue": {
+      "$value": "{color.core.blue.350}"
+    },
+    "ansiCyan": {
+      "$value": "{color.core.aqua.350}"
+    },
+    "ansiGreen": {
+      "$value": "{color.core.green.200}"
+    },
+    "ansiMagenta": {
+      "$value": "{color.core.purple.400}"
+    },
+    "ansiRed": {
+      "$value": "{color.core.coral.400}"
+    },
+    "ansiYellow": {
+      "$value": "{color.core.yellow.250}"
+    },
+    "ansiBrightWhite": {
+      "$value": "{color.core.gray.100}"
+    },
+    "ansiBrightBlack": {
+      "$value": "{color.core.gray.600}"
+    },
+    "ansiBrightBlue": {
+      "$value": "{color.core.blue.450}"
+    },
+    "ansiBrightCyan": {
+      "$value": "{color.core.aqua.300}"
+    },
+    "ansiBrightGreen": {
+      "$value": "{color.core.green.300}"
+    },
+    "ansiBrightMagenta": {
+      "$value": "{color.core.purple.500}"
+    },
+    "ansiBrightRed": {
+      "$value": "{color.core.red.450}"
+    },
+    "ansiBrightYellow": {
+      "$value": "{color.core.yellow.150}"
+    }
+  }
+}
