@@ -1,6 +1,6 @@
 id = "little-league-theme"
 name = "Little League"
-version = "1.4.1"
+version = "1.5.0"
 schema_version = 1
 description = "A quiet theme with harmonious colors"
 authors = ["Matt Strom <https://github.com/ilikescience>"]

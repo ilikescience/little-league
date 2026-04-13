@@ -1,7 +1,7 @@
 {
   "name": "little-league-themes",
   "private": true,
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Little League color themes — build system for VS Code, Zed, iTerm, and Ghostty",
   "scripts": {
     "build": "terrazzo build -c terrazzo.config.dark.mjs && terrazzo build -c terrazzo.config.darker.mjs && terrazzo build -c terrazzo.config.light.mjs",
