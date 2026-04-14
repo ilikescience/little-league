@@ -24,25 +24,25 @@ gh repo clone ilikescience/extensions "$TMPDIR" -- --depth=1
 cd "$TMPDIR"
 
 # Sync with upstream
-git remote add upstream https://github.com/zed-industries/extensions.git
+git remote set-url upstream https://github.com/zed-industries/extensions.git 2>/dev/null || git remote add upstream https://github.com/zed-industries/extensions.git
 git fetch upstream main --depth=1
 git reset --hard upstream/main
 
 # Update the submodule to the latest commit
-git submodule update --init extensions/little-league
-cd extensions/little-league
+git submodule update --init extensions/little-league-theme
+cd extensions/little-league-theme
 git fetch origin
 git checkout origin/main
 cd ../..
 
 # Update version in extensions.toml
-sed -i.bak "/^\[little-league\]/,/^$/{s/version = \".*\"/version = \"${VERSION}\"/;}" extensions.toml
+sed -i.bak "/^\[little-league-theme\]/,/^$/{s/version = \".*\"/version = \"${VERSION}\"/;}" extensions.toml
 rm -f extensions.toml.bak
 
 # Commit and push
 BRANCH="update-little-league-${VERSION}"
 git checkout -b "$BRANCH"
-git add extensions/little-league extensions.toml
+git add extensions/little-league-theme extensions.toml
 git commit -m "Update Little League to v${VERSION}"
 git push origin "$BRANCH" --force
 
