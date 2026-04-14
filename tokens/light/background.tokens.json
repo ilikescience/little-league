@@ -120,10 +120,10 @@
       "selection": {
         "active": {
           "500": {
-            "$value": "{color.core.gray.50-alpha-60}"
+            "$value": "{color.core.gray.100-alpha-60}"
           },
           "600": {
-            "$value": "{color.core.gray.100-alpha-60}"
+            "$value": "{color.core.gray.50-alpha-60}"
           }
         },
         "inactive": {

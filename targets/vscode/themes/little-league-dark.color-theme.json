@@ -162,7 +162,7 @@
     "keybindingLabel.border": "#3a3a3f",
     "keybindingLabel.bottomBorder": "#242428",
     "keybindingLabel.foreground": "#eeeeee",
-    "list.activeSelectionBackground": "#242428cc",
+    "list.activeSelectionBackground": "#57575bcc",
     "list.activeSelectionForeground": "#eeeeee",
     "list.dropBackground": "#24242844",
     "list.errorForeground": "#f89696",

@@ -2,7 +2,7 @@
   "$type": "color",
   "list": {
     "activeSelectionBackground": {
-      "$value": "{color.background.selection.active.600}",
+      "$value": "{color.background.selection.active.500}",
       "$description": "List/Tree background color for the selected item when the list/tree is active"
     },
     "activeSelectionForeground": {

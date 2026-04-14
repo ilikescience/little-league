@@ -5,7 +5,7 @@ background = #ffffff
 foreground = #57575b
 cursor-color = #cbcbcc
 cursor-text = #cbcbcc
-selection-background = #eeeeee
+selection-background = #dddddd
 selection-foreground = #57575b
 
 palette = 0=#eeeeee
